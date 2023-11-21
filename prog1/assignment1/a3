@@ -1,0 +1,39 @@
+a)
+
+- 4 put on stack
+- 8 put on stack
+- * evaluated on last to elementes on stack
+- 4 and 8 popped of stack
+- 32 put on stack
+
+b)
+
+- 8 3 4 2 - *
+- 8 3 2 *
+- 8 6
+
+c)
+
+- read-int/flt: prompt the user to input a number of the type int/flt
+- print(ln): prints data to the standard output (+ a new line)
+
+d)
+
+- or: evaluates to true if either of the operands is true, false otherwise. bspw: true false or -> true
+- and: evaluates to true if both of the operands are true, false otherwise. bspw: true true and -> false
+
+e)
+
+- all of them because the + operator is commutative
+- does not work for the - operator because it is not commutative
+
+f)
+
+- 8
+- 8 2 
+- 10
+- 10 -1
+
+g)
+
+- an error occurs because the / operator expects two operands but on got one

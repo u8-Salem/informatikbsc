@@ -1,0 +1,15 @@
+a)
+
+- helps to mentally prepare for the implemetation
+- examples serve as test cases later on
+
+b)
+
+- "Dont Reapeat Yourself" (DRY)
+- makes it easier to change the value for all instances
+- prevents errors 
+- meaningful names make code more readable. no magic numbers.
+
+c) 
+
+- nothing

@@ -1,0 +1,11 @@
+﻿read-int dup
+100 = { 
+    pop "Match" 
+} {
+    100 < { 
+        "too low" 
+    } { 
+        "too high" 
+    } if
+} if
+println
