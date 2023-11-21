@@ -1,0 +1,116 @@
+﻿# data definition
+List: {                            # A list is either
+    Null: ()                       # empty or
+    Pair: (first :Obj, rest :List) # a first element followed by a rest-list.
+} datadef
+
+# Turns an array into a list.
+tolist: (a :Arr -> :List) {
+    null a reverse { swap pair } for
+} fun
+
+# Turns a list into a string.
+tostr: (l :List -> :Str) {
+    { l null? } { "" }
+    { l pair-rest null? } { l pair-first str }
+    { true } { 
+        l pair-first str " " +  
+        l pair-rest recur + 
+    }
+} cond-fun
+
+[1 2 3 4 5] tolist x!
+x tostr "1 2 3 4 5" test=
+null tostr "" test=
+5 null pair tostr "5" test=
+5 6 null pair pair tostr "5 6" test=
+
+##################################################
+
+# a) todo: implement and write purpose statement
+#<
+prepends the object to the beginning of the list
+@param l list to prepend to
+@param x object to add to list
+@return the resulting list
+>#
+lprepend: (l :List, x :Obj -> :List) {
+    x l pair
+} fun
+
+null 10 lprepend 20 lprepend 30 lprepend y!
+y tostr "30 20 10" test=
+
+# b) todo: implement and write purpose statement
+#<
+checks whether a given list contains a string
+@param l list to check
+@return true if list contains string, false otherwise
+>#
+has-string?: (l :List -> :Bool) {
+    l pair-first type :Str = { true } { l pair-rest null? { false } { l pair-rest has-string? } if } if
+} fun
+
+x has-string? false test=
+"a" null pair has-string? true test=
+["a" 1] tolist has-string? true test=
+[1 "a"] tolist has-string? true test=
+[1 2] tolist has-string? false test=
+[1 2 "b"] tolist has-string? true test=
+
+# c) todo: implement and write purpose statement
+#<
+checks whether a given list contains only Integers
+@param l list to check
+@return true if list contains only integers or null, false otherwise
+>#
+only-numbers?: (l :List -> :Bool) {
+    { 
+        { l null? } { true }
+        { l pair? } { l pair-first type :Int = { l pair-rest only-numbers? } { false } if }
+    } cond
+} fun
+
+x only-numbers? true test=
+null only-numbers? true test=
+"a" null pair only-numbers? false test=
+["a" 1] tolist only-numbers? false test=
+[1 2] tolist only-numbers? true test=
+
+# d) todo: implement and write purpose statement
+#<
+only keeps elements of type string in a list and discards the rest.
+@param l list to filter
+@return list that contains only the strings of the input list
+>#
+keep-strings: (l :List -> :List) {
+    [] a!
+    {
+        l null? { break } if
+        l pair-first type :Str = {
+            a l pair-first append a!
+        } if
+        l pair-rest l!
+    } loop
+    a tolist
+} fun
+
+["hello" "world" 1 true] tolist x!
+x keep-strings tostr "hello world" test=
+
+# e) optional todo: implement and write purpose statement
+rev-rec: (l :List, result :List -> :List) {
+    null
+} fun
+
+# Reverses l.
+rev: (l :List -> :List) {
+    l null rev-rec
+} fun
+
+null rev tostr "" test=
+1 null pair rev tostr "1" test=
+[1 2] tolist rev tostr "2 1" test=
+x rev tostr "true 1 world hello" test=
+
+test-stats
