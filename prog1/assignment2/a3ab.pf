@@ -1,0 +1,17 @@
+﻿#<
+multiplies the input with -1 if negative, and with 2 otherwise.
+@param i 
+>#
+f: (i) { 
+    "called f" println 
+    i 0 < { 
+        i -1 * 
+    } { 
+        i 2 * 
+    } if 
+}
+
+fun -3 f f
+#<
+    stack: 6
+>#

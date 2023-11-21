@@ -1,0 +1,68 @@
+﻿BEI_200°C: 200 !
+20_MINUTEN: 2000 !
+100 Butter!
+280 Zucker!
+280 Mehl!
+200 Milch!
+20 Kakao!
+6 Eier!
+
+#<
+splits eggs into egg whites and yellows
+@param AnzahlEier
+@return amount of egg whites and yellows
+>#
+trennen: (AnzahlEier :Num -> :Arr) {
+    [AnzahlEier AnzahlEier]
+} fun
+
+#<
+mixes two ingredients
+@param Zutat1 
+@param Zutat2 
+@return the amount of mixed ingredients
+>#
+vermengen: (Zutat1 :Num Zutat2 :Num -> :Num) {
+    "vermenge" println
+    Zutat1 Zutat2 +
+    "..." println 1000 sleep
+    dup print "vermengt" println
+} fun
+
+#<
+adds egg whites and yellows 
+@param Menge 
+@param getrenntesEi 
+@return amount of mixed ingredients
+>#
+Ei-zugeben: (Menge :Num getrenntesEi :Arr -> :Num) {
+    getrenntesEi 0 get str "Eigelb hinzufügen" + println
+    Menge getrenntesEi 0 get 10 * +
+    "..." println 1000 sleep
+    getrenntesEi 1 get str "Eiweiß hinzufügen" + println
+    getrenntesEi 1 get 20 * +
+} fun
+
+#<
+bakes all mixed ingredients for a certain time and temperature
+@param Menge 
+@param Temperatur 
+@param Zeit 
+>#
+backen: (Menge :Num Temperatur :Num Zeit :Num) {
+    "vorheizen auf " Temperatur str "°C" + + println
+    "vorgeheizt!" println
+    "backen" println
+    "..." println Zeit sleep
+    Menge str "Kuchen gebacken " + println
+} fun
+
+
+#Rezept
+Butter Zucker vermengen
+Mehl vermengen
+Milch vermengen
+Kakao vermengen
+Eier trennen
+Ei-zugeben
+BEI_200°C 20_MINUTEN backen

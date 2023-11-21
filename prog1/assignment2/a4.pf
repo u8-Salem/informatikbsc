@@ -1,0 +1,20 @@
+﻿"Rate meine Zahl. Meine Zahl liegt zwischen 0 und 99" println
+100 rand-int x!
+
+zahl_raten: { 
+	{ 
+        read-int y!
+        y x = {
+                "Richtig! Herzlichen Glückwunsch" println
+                break
+        } {
+            y x < {
+                "zu klein" println
+            } {
+                "zu groß" println 
+            } if 
+        } if 
+	}loop
+} fun 
+
+zahl_raten
