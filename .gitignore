@@ -31,6 +31,10 @@
 *.out
 *.app
 
+# compiled java files
+out
+*.class
+
 # vscode 
 .vscode
 
