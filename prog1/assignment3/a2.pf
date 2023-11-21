@@ -1,0 +1,87 @@
+﻿#<
+Implement a cruise control mechanism that keeps a vehicle speed within desired limits. 
+Cruise control shall brake or accelerate, respectively, if the current 
+speed differs by 2% or more from the target speed. It 
+should do nothing if the speed is within ±2% of the target speed. 
+If the current speed or the target speed is less than 0 km/h, cruise control 
+should execute an emergency stop (hard stop). If the current speed is 
+greater than 130 km/h, the vehicle should brake.
+>#
+
+# enumeration of cruise control states:
+# :no-change, :accelerate, :brake, :hard-stop
+
+# current-speed :Num, represents the current speed in km/h
+# target-speed :Num, represents the current speed in km/h
+
+# Return the operating mode of the cruise control given the current and target speed.
+cruise-control-mode: (current-speed :Num, target-speed :Num -> :Sym) {
+	current-speed 0 <= target-speed 0 <= or {
+		:hard-stop
+	} {
+		current-speed target-speed dup 0.02 * - <= {
+			:accelerate
+		} {
+			current-speed target-speed dup 0.02 * + >= {
+				:brake
+			} {
+				:no-change
+			} if
+		} if 
+	} if
+} fun
+
+cruise-control-mode-test: {
+	-1 100 cruise-control-mode :hard-stop test=
+	100 0 cruise-control-mode :hard-stop test=
+	100 120 cruise-control-mode :accelerate test=
+	100 80 cruise-control-mode :brake test=
+	100 101 cruise-control-mode :no-change test=
+	100 99 cruise-control-mode :no-change test=
+    # todo: write at least 6 tests
+    # ... test=
+    test-stats
+} fun
+
+cruise-control-mode-test
+
+# Don't change the code below this point, 
+# except for calling animate at the very bottom.
+# Clicking sets target speed.
+
+animate: {
+    "Cruise Control" 700 100 [0 100] [
+        on-draw: (state :Arr) {
+            state .0 current-speed!
+            state .1 target-speed!
+            
+            [rectangle: 150 20 "white"] label!
+            [overlay: [[text: "current speed: " current-speed int str + 14] label] ] cur-label!
+            [overlay: [[text: "target speed: " target-speed int str + 14] label] ] tar-label!
+            [rectangle: current-speed 2 * 20 "black"] cur-bar!
+            [rectangle: target-speed 2 * 20 "black"] tar-bar!
+            [above: [[beside: [cur-label cur-bar] "center"]
+                     [beside: [tar-label tar-bar] "center"]] 
+                     x-align: "left"]
+              
+        } lam
+        on-tick: (state :Arr -> :Obj) { 
+            state .0 current-speed!
+            state .1 target-speed!
+            current-speed target-speed cruise-control-mode action!
+            {
+                { action :accelerate = } { current-speed: current-speed 0.5 + ! }
+                { action :brake = } { current-speed: current-speed -0.5 + ! }
+                { action :hard-stop = } { current-speed: 0 ! }
+            } cond
+            state 0 current-speed set
+        } lam
+        on-mouse-press: (state x y -> :Obj) { 
+            x 150 - 0 max 2 / target-speed!
+            state 1 target-speed set
+            dup dup 0 get str " " + print 1 get println
+        } lam
+    ] show
+} fun
+
+animate

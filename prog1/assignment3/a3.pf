@@ -1,0 +1,137 @@
+﻿# a)
+# Convert chess board position, like "A1", to a 2D point, like [1, 1].
+pos-to-point: (pos :Str -> :Arr) {
+    [
+        pos str->chars .0 pos1!
+        {
+            { pos1 65 = pos1 97 = or } { 1 }
+            { pos1 66 = pos1 98 = or } { 2 }
+            { pos1 67 = pos1 99 = or } { 3 }
+            { pos1 68 = pos1 100 = or } { 4 }
+            { pos1 69 = pos1 101 = or } { 5 }
+            { pos1 70 = pos1 102 = or } { 6 }
+            { pos1 71 = pos1 103 = or } { 7 }
+            { pos1 72 = pos1 104 = or } { 8 }
+        } cond
+
+        pos str->chars .1 pos2!
+        {
+            { pos2 49 = } { 1 }
+            { pos2 50 = } { 2 }
+            { pos2 51 = } { 3 }
+            { pos2 52 = } { 4 }
+            { pos2 53 = } { 5 }
+            { pos2 54 = } { 6 }
+            { pos2 55 = } { 7 }
+            { pos2 56 = } { 8 }
+        } cond
+    ]
+} fun
+
+test-pos-to-point: {
+    "a1" pos-to-point [1 1] test=
+    "A1" pos-to-point [1 1] test=
+    "H8" pos-to-point [8 8] test=
+    "B6" pos-to-point [2 6] test=
+    # a) further examples
+} fun
+
+ test-pos-to-point
+
+# b)
+# Check whether p is a valid chess board position of the Form "[0 2]".
+point-valid: (p :Arr -> :Bool) {
+    p .0 pos1! p .1 pos2!
+    pos1 0 > pos1 9 < and { 
+        pos2 0 > pos2 9 < and { 
+            true 
+        } {
+            false 
+        } if 
+    } { 
+        false 
+    } if
+} fun
+
+test-point-valid: {
+    [1 1] point-valid true test=
+    [8 8] point-valid true test=
+    [8 9] point-valid false test=
+    [9 8] point-valid false test=
+    [2 0] point-valid false test=
+    [0 10] point-valid false test=
+    [5 4] point-valid true test=
+} fun
+
+test-point-valid
+
+# c)
+# Convert 2D point of the form [1, 1] to a chess board position of the form "A1".
+point-to-pos: (a :Arr -> :Str) {
+    [
+        a .0 pos1!
+        {
+            { pos1 1 = } { 65 }
+            { pos1 2 = } { 66 }
+            { pos1 3 = } { 67 }
+            { pos1 4 = } { 68 }
+            { pos1 5 = } { 69 }
+            { pos1 6 = } { 70 }
+            { pos1 7 = } { 71 }
+            { pos1 8 = } { 72 }
+        } cond
+
+        a .1 pos2!
+        {
+            { pos2 1 = } { 49 }
+            { pos2 2 = } { 50 }
+            { pos2 3 = } { 51 }
+            { pos2 4 = } { 52 }
+            { pos2 5 = } { 53 }
+            { pos2 6 = } { 54 }
+            { pos2 7 = } { 55 }
+            { pos2 8 = } { 56 }
+        } cond
+        
+    ] chars->str
+} fun
+
+test-point-to-pos: {
+    [1 1] point-to-pos "A1" test=
+    [2 2] point-to-pos "B2" test=
+    [4 2] point-to-pos "D2" test=
+    # c) further examples
+} fun
+
+test-point-to-pos
+
+# d)
+# Computes the possible next positions of the knight (Springer) given its current position.
+knight-next-positions: (p :Str -> :Arr) {
+    p pos-to-point p!
+    p .0 px!
+    p .1 py!
+    # create all possible positions (some of which may not be on the board)
+    [ 
+        [px 1 +  py 2 +] 
+        [px 2 +  py 1 +] 
+        [px 1 +  py 2 -] 
+        [px 2 +  py 1 -] 
+        [px 1 -  py 2 +] 
+        [px 2 -  py 1 +] 
+        [px 1 -  py 2 -] 
+        [px 2 -  py 1 -] 
+    ] a!
+    # remove invalid positions (the ones not on the board)
+    [a { dup point-valid not {pop} {point-to-pos} if } for] sort
+} fun
+
+test-knight-next-positions: {
+    "A1" knight-next-positions ["B3", "C2"] test=
+    "H8" knight-next-positions ["F7", "G6"] test=
+    "H8" knight-next-positions ["F7", "G6"] test=
+} fun
+
+test-knight-next-positions
+
+test-stats
