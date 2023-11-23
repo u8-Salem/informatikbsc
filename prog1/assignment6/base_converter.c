@@ -214,7 +214,7 @@ int extract_bits(int value, int start, int end){
 
     if (start > end) { return ret; }
     if (start < 0 || end < 0) { return ret; }
-    if (end > sizeof(int) * 8) { return ret; }
+    if (end > sizeof(int) * 8 - 1) { return ret; }
     
     int j = 0;
     for (int i = start; i < end; i++) {
