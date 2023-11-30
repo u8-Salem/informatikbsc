@@ -5,6 +5,8 @@
 #endif
 
 typedef enum typetag_e {
+	/*TypeTag sorgt dafür, dass man später die verschiedenen 
+	Körper den verschiedenen strukturen im Body zuordnen kann.*/
     CYLINDER,
     CUBOID,
     SPHERE,
@@ -24,22 +26,51 @@ typedef struct sphere_s {
 
 typedef struct body_s {
     // todo
+	 TypeTag tag;
+    union {
+        Cylinder cylinder;
+        Cuboid cuboid;
+        Sphere sphere;
+    } types;
 } Body;
 
 Body make_cylinder(double r, double h) {
     // todo
+	Body body;
+	body.tag = CYLINDER;
+	body.types.cylinder.r = r;
+	body.types.cylinder.h = h;
+	return body;
 }
 
 Body make_cuboid(double a, double b, double c) {
     // todo
+	Body body;
+	body.tag = CUBOID;
+	body.types.cuboid.a = a;
+	body.types.cuboid.b = b;
+	body.types.cuboid.c = c;
+	return body;
 }
 
 Body make_sphere(double r) {
     // todo
+	Body body;
+	body.tag = SPHERE;
+	body.types.sphere.r = r;
+	return body;
 }
 
 double volume(Body body) {
     // todo
+	switch(body.tag){
+		case CYLINDER:
+			return M_PI * body.types.cylinder.r * body.types.cylinder.r * body.types.cylinder.h;
+		case CUBOID:
+			return body.types.cuboid.a * body.types.cuboid.b * body.types.cuboid.c;
+		case SPHERE:
+			return 4. / 3. * M_PI * body.types.sphere.r * body.types.sphere.r * body.types.sphere.r;
+	}
     return -1;
 }
 
