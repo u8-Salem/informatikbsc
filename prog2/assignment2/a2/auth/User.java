@@ -25,7 +25,7 @@ public class User {
 
     public boolean removeItem(Item item) {
         for (int i = 0; i < items.length; i++) {
-            if (items[i].equals(item)) {
+            if (items[i] != null && items[i].equals(item)) {
                 items[i] = null;
                 return true;
             }
@@ -33,7 +33,16 @@ public class User {
         return false;
     }
 
-    public String toString() { return username; }
+    public String toString() {
+        StringBuilder s = new StringBuilder();
+        s.append("[User: ").append(username).append("]\n");
+        for (Item item : items) {
+            if (item != null)
+                s.append(item);     // .toString is called implicitly
+        }
+
+        return s.toString();
+    }
 
     public String getUsername() {
         return username;

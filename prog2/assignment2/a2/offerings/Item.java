@@ -38,5 +38,14 @@ public class Item {
         return description;
     }
 
-    public String toString() { return this.name; }
+    public String toString() {
+        StringBuilder s = new StringBuilder();
+        s.append("\t<Item : ").append(name)
+         .append(", Price: ").append(price)
+         .append(", Seller: ").append(seller.getUsername())     // careful not to cause infinite recursion here by calling the user.
+         .append(", Description: ").append(description)
+         .append(">\n");
+
+        return s.toString();
+    }
 }

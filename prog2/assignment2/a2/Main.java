@@ -20,9 +20,16 @@ public class Main {
         user2.addItem(coffee);
         user2.addItem(chair);
 
+        System.out.println(user1);
+        user1.removeItem(car);
+        System.out.println(user1);
+
         marketplace.addUser(user1);
         marketplace.addUser(user2);
-
         System.out.println(marketplace.str());
+        marketplace.removeUser(user2);
+        System.out.println(marketplace.str());
+
+
     }
 }
