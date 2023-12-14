@@ -1,0 +1,4 @@
+#name    passengers    reach    load_capacity
+Endeavor    20    100.0    20
+Horizon    300    400.50    10
+Adventure    10    200.30    2
