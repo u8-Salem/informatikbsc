@@ -25,11 +25,14 @@ Position make_position(int x, int y) {
     return p;
 }
 
+#define N 8
+
 void print_position(Position p) {
     // todo: implement
-}
+	//printf("%c", 'A' + 1);
+	printf("%c%d\n", 'A' + p.x,1 + p.y);
 
-#define N 8
+}
 
 typedef struct {
     char board[N][N]; // the NxN playing board
@@ -65,7 +68,7 @@ Game init_game(char my_stone) {
 
 // Print the board. The initial board should look like shown above.
 void print_board(Game* g) {
-    printsln(" |A|B|C|D|E|F|G|H|");
+    printsln("\n |A|B|C|D|E|F|G|H|");
     for (int i = 0; i < N; i++) {
         printi(i + 1);
         for (int j = 0; j < N; j++) {
@@ -147,17 +150,40 @@ Position human_move(Game* g) {
     String s = s_input(10);
     if (s_length(s) >= 1 && s[0] == 'q') exit(0);
     // todo: modify to temporarily mark valid moves
-    Position pos = { -1, -1 };
-    if (s_length(s) >= 2) {
-        pos.x = (int)tolower(s[0]) - 'a';
-        pos.y = (int)s[1] - '1';
-    }
-    if (legal(g, pos.x, pos.y)) {
-        return pos;
-    } else {
-        printsln("Invalid position!");
-        return human_move(g);
-    }
+	if(s_equals(s, "?") == true){
+		//printf("Input ist ?");
+		for (int y = 0; y < N; y++) {
+			for (int x = 0; x < N; x++) {
+				if (legal(g, x, y)) {
+					//printf("legaler Zug gefunden");
+					g->board[x][y] = '*';
+				}
+			}
+		}
+		print_board(g);
+		return human_move(g);		
+	}
+	for (int y = 0; y < N; y++) {
+			for (int x = 0; x < N; x++) {
+				if (g->board[x][y] == '*') {
+					g->board[x][y] = '_';
+				}
+			}
+	}
+					
+	Position pos = { -1, -1 };
+	if (s_length(s) >= 2) {
+		pos.x = (int)tolower(s[0]) - 'a';
+		pos.y = (int)s[1] - '1';
+	}
+	
+	if (legal(g, pos.x, pos.y)) {
+		return pos;
+	} else {
+		printsln("Invalid position!");
+		return human_move(g);
+	}
+	
 }
 
 int count_stones(Game *g, char c) {
@@ -188,24 +214,45 @@ PositionStack make_position_stack() {
 // Pushes a new position on top of the stack.
 void push(PositionStack *ps, Position p) {
     // todo: implement
+	if(ps->length >= POSITION_STACK_SIZE){
+		prints("Stack_Überlauf");
+		exit(0);
+	}
+	ps->values[ps->length++] = p;
 }
 
 // Pops the topmost position from the stack.
 Position pop(PositionStack *ps) {
     // todo: implement
-    return make_position(0, 0);
+	if(ps->length <= 0){
+		prints("Stack_Unterlaufen");
+		exit(0);
+	}
+	return ps->values[ps->length--];
+    //return make_position(0, 0);
 }
 
 // Returns a random position from the stack.
 Position random_position(PositionStack *ps) {
     // todo: implement
-    return make_position(0, 0);
+	int rnd_ps = i_rnd(ps->length);
+    //return make_position(0, 0);
+	return ps->values[rnd_ps];
 }
 
 // Tests all positions and chooses a random valid move.
 Position computer_move(Game *g) {
     // todo: implement
-    return make_position(0, 0);
+	PositionStack ps = make_position_stack();
+	for (int y = 0; y < N; y++) {
+        for (int x = 0; x < N; x++) {
+            if (legal(g, x, y)) {
+				push(&ps, make_position(x,y));
+			}
+		}
+	}
+    //return make_position(0, 0);
+    return random_position(&ps);
 }
 
 int main(void) {
