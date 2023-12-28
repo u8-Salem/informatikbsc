@@ -1,0 +1,64 @@
+
+4.1.1)
+1) 
+a) 
+Nach einer Generation hat man zwei Prozesse, nach zwei generationen vier, nach drei Generationen acht
+und nach n Generationen hat man 2^n Prozesse.
+
+b) 
+Das Programm öffnet theoretisch unendlich viele Prozesse und die hardwareressourcen sind irgendwann ausgeschöpft.
+Ein beispielhafter Eintrag wäre:
+tux           hard    nproc   100
+@guests       hard    nproc   2000
+
+
+2) 
+SIGKILL beendet das Programm ohne auf das Programm zu warten.
+SIGTERM lässt das Programm wissen, dass es sich schließen soll. So kann sich das Programm sauber schließen und noch
+z.B. Daten abspeichern. Das Signal kann aber auch vom Programm ignoriert werden.
+
+
+3) 
+Fäden (bzw. Threads) gehören immer zu einem Prozess. Ein Prozess kann mehrere Fäden erstellen, 
+welche dann parralel laufen können und sich gewisse Ressourcen (wie z.B. den Prozess-Adressraum) teilen.
+Wenn von dem gleichen Programm mehrere Prozesse erstellt werden, hat jeder dieser Prozesse seinen 
+eigenen Prozess-Adressraum.
+
+
+4) 
+Prozess: 
+    + Jeder Prozess hat eigene Zeitscheibe -> zwei Prozesse = Mehr Zeit 
+    - Hat eigenen Adressraum -> Dauert lange zum welchseln
+        -> Kein Datenaustausch zwischen Prozessen bzw. nur schwer möglich 
+Faden: 
+    + Teilen sich Adressraum -> Dauert kürzer zum wechseln
+    + Gemeinsamer Adressraum -> Datenaustausch möglich 
+    - Nur eine Zeitscheibe pro Prozess (weniger Zeit)
+
+
+5) 
+    a) falsch
+    b) richtig
+    c) falsch
+    d) falsch
+    e) richtig
+    f) richtig
+
+
+4.1.2) 
+1) 
+Online-Sceduling: 
+    Hier wird der Ablauf dynamisch, während der Ausführung, geplant
+    + Kein / wenig Wissen über die Aufgaben im vorraus benötigt   
+    - Produziert nicht unbedingt optimale Lösung 
+
+Offline-Sceduling: 
+    Hier wird der Ablauf statisch, vor der Ausführung, geplant
+    + Kann Optimale lösung generieren
+    - Informationen über die Aufgaben im vorraus benötigt
+        -> daher bei Prozess-Sceduling nicht anwendbar 
+
+2) 
+Das Shortest-Remaining-Time-First Sceduling verfahren führt dazu, dass Prozesse mit längerer Laufzeit 
+benachteiligt werden und evtl auch verhungern können (wenn immer neue kürzere Prozesse dazu kommen)
+Zusätzlich dazu benötigt man im Vorraus auch erstmal die Informationen darüber wie lange der Prozess noch ungefähr braucht.

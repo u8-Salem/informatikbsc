@@ -1,0 +1,73 @@
+1)
+<>: sucht standardmäßig in vordefinierten Pfaden nach den Header-Dateien
+"": sucht standardmäßig im Ordner der Datei
+
+KORREKTUR: Das ist nicht ganz vollständig. "" sucht noch in den Systempfaden weiter, wenn im aktuellen Ordner nichts gefunden wurde. (-0.5P)
+PUNKTE: 0.5
+
+2)
+Damit man den angeforderten Speicher wieder freigeben kann.
+Tut man dies nicht, ist der betroffene Speicher nicht für anderes
+verwendbar. Im Gegensatz zu Java wird der Speicher nicht
+automatisch freigegeben.
+
+PUNKTE: 1
+
+3)
+Weil Strings in C als Array repräsentiert werden. Bei einem Vergleich
+wird somit nicht der Inhalt sondern die Pointer zum Array-Anfang verglichen.
+PUNKTE: 1
+
+4)
+C kompiliert zu Maschinencode, während Java zu Bytecode für die eigene VM kompiliert.
+Das Kompilat von C läuft somit "direkt" auf dem Prozessor und das von Java in der Java VM.
+
+KORREKTUR: Es fehlt ein konzeptioneller Unterschied. (-0.5P)
+PUNKTE: 0.5
+5)
+a)
+a ist eine Funktion die einen Integer zurückgibt und als Parameter einen Zeiger auf einen 
+konstanten Character und einen Zeiger auf ein struct stat nimmt.
+
+b)
+b ist eine Funktion die keinen Wert zurückgibt und als Paramter nimmt: einen Pointer auf
+ein Element eines beliebigen Typs, zwei Elemente vom Typ size_t und einen Pointer auf eine
+Funktion cmp, die einen Integer zurückgibt und als Parameter zwei Pointer auf
+konstante Elemente eines beliebigen Typs nimmt.
+
+c)
+c ist ein Array von Pointern auf Funktionen, die jeweils einen char und einen Pointer
+auf eine Funktion nehmen. Die Funktion auf die der Pointer zeigt hat als Parameter ein
+double und gibt nichts zurück.
+PUNKTE: 1
+
+6)
+text: -> Der maschienencode
+    main 
+    endgeschwindigkeit
+
+data: -> Alles was fürs ganze Programm gilt/lebt (z.B. globale / in funktion statische Variablen)
+    Nach Zeile 2 in main: luftdichte
+	KORREKTUR: luftdichte befindet sich die ganze Laufzeit über in bss. Variablen wechseln ihre Segmente nicht. (-0.25P)
+
+rodata: -> Const globale/statische Variablen
+    luftreibung
+    g
+
+bss: -> Globale/Statische Variablen, die nicht initialisiert sind -> Alle Variablen in diesem Segmant werden mit 0 initialisiert -> Speicherspaaren 
+     -> Größe zur laufzeit fest
+    Zu Beginn: luftdichte
+
+stack: 
+    masse
+    flaeche 
+    v
+
+heap: 
+
+
+Die Variablen 'luftreibung' und 'luftdichte' befinden sich in unterschiedlichen Segmenten,
+da luftdichte, im gegensatz zu luftreibung, nicht de const Qualifier hat.
+Daher ist luftdichte veränderbar und kommt nicht in den 'rodata' bereich, welcher nicht veränderbar ist.
+
+PUNKTE: 0.75

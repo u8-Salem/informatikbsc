@@ -1,0 +1,322 @@
+sam.edding@srabmit:~$ ps aux --sort=user
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ale.wra+ 1322121  0.0  0.0  19008 10836 ?        Ss   22:54   0:00 /lib/systemd/systemd --user
+ale.wra+ 1322122  0.0  0.0 170820  4104 ?        S    22:54   0:00 (sd-pam)
+ale.wra+ 1322184  0.0  0.0  18052  6980 ?        S    22:54   0:00 sshd: ale.wratschinski@pts/27
+ale.wra+ 1322185  0.0  0.0   8592  5140 pts/27   Ss+  22:54   0:00 -bash
+art.rat+ 1331573  0.0  0.0   5820   932 ?        S    23:29   0:00 sleep 5
+art.rat+ 1331574  0.0  0.0   5820   888 ?        S    23:29   0:00 sleep 5
+art.rat+ 3770810  0.0  0.0  19076 10856 ?        Ss   Okt26   0:01 /lib/systemd/systemd --user
+art.rat+ 3770811  0.0  0.0 170616  3872 ?        S    Okt26   0:00 (sd-pam)
+art.rat+ 3844205  0.0  0.0   2576   952 ?        S    Okt26   0:11 sh /gbs/aufgaben/a1/endlos_stern.sh
+art.rat+ 3844281  0.0  0.0   2576   900 ?        S    Okt26   0:11 sh /gbs/aufgaben/a1/endlos_stern.sh
+ben.klo+ 1331578  0.0  0.0   5820   888 ?        S    23:29   0:00 sleep 5
+ben.klo+ 3046557  0.0  0.0  19016 10692 ?        Ss   Okt23   0:02 /lib/systemd/systemd --user
+ben.klo+ 3046558  0.0  0.0 170348  3508 ?        S    Okt23   0:00 (sd-pam)
+ben.klo+ 3046696  0.0  0.0   7560  3460 ?        S    Okt23   0:46 /bin/bash /gbs/aufgaben/a1/endlos_stern.sh
+dam.ern+ 1331572  0.0  0.0   5820   892 ?        S    23:29   0:00 sleep 5
+dam.ern+ 3466879  0.0  0.0  18964 10716 ?        Ss   Okt25   0:02 /lib/systemd/systemd --user
+dam.ern+ 3466880  0.0  0.0 170360  3660 ?        S    Okt25   0:00 (sd-pam)
+dam.ern+ 3479591  0.0  0.0   7288  3396 ?        S    Okt25   0:35 /bin/bash /gbs/aufgaben/a1/endlos_stern.sh
+dar.est+ 1331577  0.0  0.0   5820   936 ?        S    23:29   0:00 sleep 5
+dar.est+ 2998693  0.0  0.0  18996 10684 ?        Ss   Okt23   0:03 /lib/systemd/systemd --user
+dar.est+ 2998694  0.0  0.0 170440  2160 ?        S    Okt23   0:00 (sd-pam)
+dar.est+ 3004625  0.0  0.0   7560  3488 ?        S    Okt23   0:46 /bin/bash /gbs/aufgaben/a1/endlos_stern.sh
+dav.tho+ 1331571  0.0  0.0   5820   928 ?        S    23:29   0:00 sleep 5
+dav.tho+ 1331579  0.0  0.0   5820   904 ?        S    23:29   0:00 sleep 5
+dav.tho+ 3019859  0.0  0.0  19016 10700 ?        Ss   Okt23   0:02 /lib/systemd/systemd --user
+dav.tho+ 3019860  0.0  0.0 170348  3408 ?        S    Okt23   0:00 (sd-pam)
+dav.tho+ 3020020  0.0  0.0   7560  3344 ?        S    Okt23   0:45 /bin/bash ./endlos_stern.sh
+dav.tho+ 3020526  0.0  0.0   7560  3416 ?        S    Okt23   0:45 /bin/bash ./endlos_stern.sh
+dip.sah  1315987  0.0  0.0  18052  6944 ?        S    22:29   0:00 sshd: dip.sah@pts/39
+dip.sah  1315988  0.0  0.0  10120  6144 pts/39   Ss+  22:29   0:00 -bash
+dip.sah  1331580  0.0  0.0   5820   940 ?        S    23:29   0:00 sleep 5
+dip.sah  1331582  0.0  0.0   5820   912 ?        S    23:29   0:00 sleep 5
+dip.sah  3708695  0.0  0.0  19044 10792 ?        Ss   Okt26   0:01 /lib/systemd/systemd --user
+dip.sah  3708696  0.0  0.0 170616  3804 ?        S    Okt26   0:00 (sd-pam)
+dip.sah  3718424  0.0  0.0   7288  3292 ?        S    Okt26   0:28 /bin/bash /gbs/aufgaben/a1/endlos_stern.sh
+dip.sah  3718450  0.0  0.0   7288  3260 ?        S    Okt26   0:29 /bin/bash /gbs/aufgaben/a1/endlos_stern.sh
+hal.yes+ 1288954  0.0  0.0  19084 10788 ?        Ss   20:39   0:00 /lib/systemd/systemd --user
+hal.yes+ 1288955  0.0  0.0 170820  4100 ?        S    20:39   0:00 (sd-pam)
+hal.yes+ 1305037  0.0  0.0   5852  1048 ?        S    21:50   0:00 script
+hal.yes+ 1305038  0.0  0.0   8596  5036 pts/24   Ss   21:50   0:00 bash -i
+hal.yes+ 1305191  0.0  0.0   5852  1024 pts/24   S+   21:51   0:00 script kill.txt
+hal.yes+ 1305192  0.0  0.0   8868  5340 pts/32   Ss+  21:51   0:00 bash -i
+hal.yes+ 1307080  0.0  0.0   5852  1072 pts/32   T    21:56   0:00 script kill.txt -c /gbs/aufgaben/a1/endlos_stern.sh
+jea.rud+ 3251234  0.0  0.0  18948 10716 ?        Ss   Okt24   0:02 /lib/systemd/systemd --user
+jea.rud+ 3251235  0.0  0.0 170348  3580 ?        S    Okt24   0:00 (sd-pam)
+jea.rud+ 3254367  0.0  0.3 3638408 58272 ?       Sl   Okt24   0:04 /home/student/jea.rudolph/.vscode-server/extensions/m
+jea.rud+ 3490720  0.0  0.0  62444  7916 ?        Sl   Okt25   0:45 /home/student/jea.rudolph/.vscode-server/extensions/m
+jea.rud+ 3531270  0.0  0.0 4255400 12432 ?       Sl   Okt25   1:04 /home/student/jea.rudolph/.vscode-server/extensions/m
+joe.ste+ 1193181  0.0  0.0  19000 10784 ?        Ss   16:46   0:00 /lib/systemd/systemd --user
+joe.ste+ 1193182  0.0  0.0 170820  4092 ?        S    16:46   0:00 (sd-pam)
+joe.ste+ 1193202  0.0  0.0  18052  7016 ?        S    16:46   0:03 sshd: joe.steschulat@pts/14
+joe.ste+ 1193203  0.0  0.0  11332  7256 pts/14   Ss+  16:46   0:00 -bash
+jon.bac+  801014  0.0  0.1  33164 23184 ?        Sl   Okt30   0:00 /home/student/jon.backhaus/.vscode-server/extensions/
+jon.bac+  801234  0.0  0.0  18992 10776 ?        Ss   Okt30   0:00 /lib/systemd/systemd --user
+jon.bac+  801235  0.0  0.0 170608  3968 ?        S    Okt30   0:00 (sd-pam)
+jon.bac+  801741  0.0  0.1 193708 23512 ?        Sl   Okt30   0:00 /home/student/jon.backhaus/.vscode-server/bin/f1b07bd
+jon.bac+ 1312272  0.0  0.0   2576   952 ?        S    22:17   0:00 sh /home/student/jon.backhaus/.vscode-server/bin/f1b0
+jon.bac+ 1312282  0.0  0.5 946404 86076 ?        Sl   22:17   0:01 /home/student/jon.backhaus/.vscode-server/bin/f1b07bd
+jon.bac+ 1312340  0.0  0.3 640524 58808 ?        Sl   22:17   0:00 /home/student/jon.backhaus/.vscode-server/bin/f1b07bd
+jon.bac+ 1312346  0.0  0.4 777448 67476 ?        Sl   22:17   0:01 /home/student/jon.backhaus/.vscode-server/bin/f1b07bd
+jos.oth+ 1315811  0.0  0.0  19004 10796 ?        Ss   22:28   0:00 /lib/systemd/systemd --user
+jos.oth+ 1315812  0.0  0.0 170820  4104 ?        S    22:28   0:00 (sd-pam)
+jos.oth+ 1316266  0.0  0.0  18052  6920 ?        S    22:30   0:00 sshd: jos.otholt@notty
+jos.oth+ 1316274  0.0  0.0   2784  1096 ?        Ss   22:30   0:00 /usr/lib/openssh/sftp-server
+jos.oth+ 1326466  0.0  0.0  18052  6896 ?        S    23:08   0:00 sshd: jos.otholt@notty
+jos.oth+ 1326473  0.0  0.0   2644  1124 ?        Ss   23:08   0:00 /usr/lib/openssh/sftp-server
+jus.kus+  488223  0.0  0.1  40368 32136 ?        Sl   Okt29   0:01 /home/student/jus.kuschnik/.vscode-server/extensions/
+jus.kus+  491739  0.0  0.0  19064 10732 ?        Ss   Okt29   0:00 /lib/systemd/systemd --user
+jus.kus+  491740  0.0  0.0 170688  4000 ?        S    Okt29   0:00 (sd-pam)
+jus.kus+ 3147005  0.0  0.1  36256 27324 ?        Sl   Okt23   0:02 /home/student/jus.kuschnik/.vscode-server/extensions/
+jus.kus+ 3213046  0.0  0.1  37772 28552 ?        Sl   Okt24   0:02 /home/student/jus.kuschnik/.vscode-server/extensions/
+jus.kus+ 3234054  0.0  0.1  33108 23692 ?        Sl   Okt24   0:00 /home/student/jus.kuschnik/.vscode-server/extensions/
+kha.do   3736923  0.0  0.1  34296 25440 ?        Sl   Okt26   0:02 /home/student/kha.do/.vscode-server/extensions/ms-vsc
+kha.do   3750544  0.0  0.1  37144 28140 ?        Sl   Okt26   0:01 /home/student/kha.do/.vscode-server/extensions/ms-vsc
+kha.do   3753396  0.0  0.0 4234636 13504 ?       Sl   Okt26   0:00 /home/student/kha.do/.vscode-server/extensions/ms-vsc
+kha.do   3755335  0.0  0.1  34472 25384 ?        Sl   Okt26   0:07 /home/student/kha.do/.vscode-server/extensions/ms-vsc
+kha.do   3760010  0.0  0.1  36236 27416 ?        Sl   Okt26   0:01 /home/student/kha.do/.vscode-server/extensions/ms-vsc
+kha.do   3761136  0.0  0.0  18992 10860 ?        Ss   Okt26   0:01 /lib/systemd/systemd --user
+kha.do   3761137  0.0  0.0 170616  3812 ?        S    Okt26   0:00 (sd-pam)
+mail         511  0.0  0.0   5672  2816 ?        Ss   Okt11   0:00 /usr/sbin/nullmailer-send
+max.pra+ 1220310  0.0  0.0  19000 10772 ?        Ss   17:47   0:00 /lib/systemd/systemd --user
+max.pra+ 1220311  0.0  0.0 170820  4092 ?        S    17:47   0:00 (sd-pam)
+max.pra+ 1220387  0.0  0.0   2576   956 ?        S    17:47   0:00 sh /home/student/max.prahst/.vscode-server/bin/f1b07b
+max.pra+ 1220397  0.1  0.8 985636 138156 ?       Sl   17:47   0:37 /home/student/max.prahst/.vscode-server/bin/f1b07bd25
+max.pra+ 1220522  0.0  0.4 1051068 73792 ?       Sl   17:48   0:11 /home/student/max.prahst/.vscode-server/bin/f1b07bd25
+max.pra+ 1250446  0.0  0.4 937104 81788 ?        Sl   18:55   0:16 /home/student/max.prahst/.vscode-server/bin/f1b07bd25
+max.pra+ 1251142  0.4  1.5 22070668 257428 ?     Sl   18:56   1:14 /home/student/max.prahst/.vscode-server/bin/f1b07bd25
+max.pra+ 1251153  0.0  0.3 848624 57972 ?        Sl   18:56   0:01 /home/student/max.prahst/.vscode-server/bin/f1b07bd25
+max.pra+ 1263890  0.0  0.3 605584 58720 ?        Sl   19:26   0:00 /home/student/max.prahst/.vscode-server/bin/f1b07bd25
+max.pra+ 1280841  0.0  0.1  75800 29024 ?        Sl   20:07   0:04 /home/student/max.prahst/.vscode-server/extensions/ms
+max.pra+ 1280876  0.0  0.0 4257992 16200 ?       Sl   20:07   0:01 /home/student/max.prahst/.vscode-server/extensions/ms
+max.pra+ 1291299  0.0  0.0   8772  5412 pts/26   Ss+  20:49   0:00 /usr/bin/bash --init-file /home/student/max.prahst/.v
+message+     506  0.0  0.0  10048  5664 ?        Ss   Okt11   0:49 /usr/bin/dbus-daemon --system --address=systemd: --no
+mic.mir+ 1325799  0.0  0.0  19072 10804 ?        Ss   23:06   0:00 /lib/systemd/systemd --user
+mic.mir+ 1325800  0.0  0.0 170820  4104 ?        S    23:06   0:00 (sd-pam)
+mic.mir+ 1325820  0.0  0.0  18052  6884 ?        S    23:06   0:00 sshd: mic.mirau@pts/30
+mic.mir+ 1325821  0.0  0.0   8740  5136 pts/30   Ss+  23:06   0:00 -bash
+mig.sal+ 3321754  0.0  0.0  18960 10652 ?        Ss   Okt24   0:02 /lib/systemd/systemd --user
+mig.sal+ 3321755  0.0  0.0 170360  3660 ?        S    Okt24   0:00 (sd-pam)
+mig.sal+ 3322744  0.0  0.0   5852  1012 ?        S    Okt24   0:00 script
+mig.sal+ 3322745  0.0  0.0   8596  4808 pts/15   Ss   Okt24   0:00 bash -i
+mig.sal+ 3322811  0.0  0.0   8688  4196 pts/15   S+   Okt24   0:00 man script
+mig.sal+ 3322819  0.0  0.0   6196  1256 pts/15   S+   Okt24   0:00 pager
+mik.sch+ 3678118  0.0  0.0  18916 10784 ?        Ss   Okt26   0:01 /lib/systemd/systemd --user
+mik.sch+ 3678119  0.0  0.0 170548  3852 ?        S    Okt26   0:00 (sd-pam)
+mik.sch+ 3684166  0.0  0.0   5852   936 ?        S    Okt26   0:00 script kill.txt
+mik.sch+ 3684167  0.0  0.0   8868  5620 pts/2    Ss+  Okt26   0:00 bash -i
+moh.atya 3267878  0.0  0.0  19044 10748 ?        Ss   Okt24   0:02 /lib/systemd/systemd --user
+moh.atya 3267879  0.0  0.0 170488  3636 ?        S    Okt24   0:00 (sd-pam)
+moh.atya 3267967  0.0  0.0   2576   932 ?        S    Okt24   0:00 sh /home/student/moh.atya/.vscode-server/bin/f1b07bd2
+moh.atya 3267977  0.0  0.9 1015636 158148 ?      Sl   Okt24   2:59 /home/student/moh.atya/.vscode-server/bin/f1b07bd25df
+moh.atya 3268038  0.0  0.4 848084 66112 ?        Sl   Okt24   0:29 /home/student/moh.atya/.vscode-server/bin/f1b07bd25df
+moh.atya 3268163  0.0  0.3 848368 59280 ?        Sl   Okt24   1:03 /home/student/moh.atya/.vscode-server/bin/f1b07bd25df
+moh.atya 3275110  0.0  0.1 177316 23564 ?        Sl   Okt24   0:00 /home/student/moh.atya/.vscode-server/bin/f1b07bd25df
+mysql       6579  0.0  1.2 2212740 204952 ?      Ssl  Okt11  21:09 /usr/sbin/mariadbd
+oda.alk+  435194  0.0  0.0  19032 10828 ?        Ss   Okt29   0:00 /lib/systemd/systemd --user
+oda.alk+  435195  0.0  0.0 170688  4000 ?        S    Okt29   0:00 (sd-pam)
+oda.alk+ 1141733  0.0  0.0  18052  6924 ?        S    13:46   0:05 sshd: oda.alkhodary@pts/29
+oda.alk+ 1141734  0.0  0.0  10120  6200 pts/29   Ss   13:46   0:00 -bash
+oda.alk+ 1331527  0.1  0.1  92984 16980 pts/29   Sl+  23:29   0:00 vim halde.c
+ole.kra+ 1520374  0.0  0.0  19016 10764 ?        Ss   Okt20   0:03 /lib/systemd/systemd --user
+ole.kra+ 1520375  0.0  0.0 170400  2112 ?        S    Okt20   0:00 (sd-pam)
+ole.kra+ 1520535  0.0  0.0   8736  3780 ?        Ss   Okt20   0:00 tmux
+ole.kra+ 1520536  0.0  0.0   8624  3932 pts/20   Ss+  Okt20   0:00 -bash
+pet.pad+  446698  0.0  0.0  18992 10792 ?        Ss   Okt29   0:00 /lib/systemd/systemd --user
+pet.pad+  446699  0.0  0.0 170688  4000 ?        S    Okt29   0:00 (sd-pam)
+pet.pad+  487811  0.0  0.0   7560  3660 ?        Ss   Okt29   0:32 /bin/bash /gbs/aufgaben/a1/testdir/endlos_stern.sh
+pet.pad+ 1331584  0.0  0.0   5820   912 ?        S    23:29   0:00 sleep 2
+pra.dha+  347587  0.0  0.0  18948 10768 ?        Ss   Okt29   0:00 /lib/systemd/systemd --user
+pra.dha+  347588  0.0  0.0 170688  4000 ?        S    Okt29   0:00 (sd-pam)
+pra.dha+  348611  0.0  0.0   7664   776 ?        Ss   Okt29   0:00 ssh-agent
+pra.dha+  431875  0.0  0.0   7796  3076 ?        Ss   Okt29   0:00 ssh-agent
+pra.dha+ 1299043  0.0  0.0  18052  6964 ?        S    21:23   0:00 sshd: pra.dhakal@pts/22
+pra.dha+ 1299044  0.0  0.0   8592  5076 pts/22   Ss+  21:23   0:00 -bash
+rom.ion+ 1151537  0.0  0.0  19012 10704 ?        Ss   14:27   0:00 /lib/systemd/systemd --user
+rom.ion+ 1151538  0.0  0.0 170688  4056 ?        S    14:27   0:00 (sd-pam)
+rom.ion+ 1151558  0.0  0.0  19128  8304 ?        S    14:27   0:01 sshd: rom.ionov@pts/16
+rom.ion+ 1151568  0.0  0.0  11500  7380 pts/16   Ss   14:27   0:00 -bash
+rom.ion+ 1168061  0.0  0.0   5852  1024 pts/16   S+   15:32   0:00 script test.txt
+rom.ion+ 1168062  0.0  0.0   8596  4968 pts/31   Ss   15:32   0:00 bash -i
+rom.ion+ 1168135  0.0  0.0   5852  1000 pts/31   S+   15:32   0:00 script
+rom.ion+ 1168136  0.0  0.0  10144  6052 pts/37   Ss   15:32   0:00 bash -i
+rom.ion+ 1168230  0.0  0.0   5852  1052 pts/37   S+   15:33   0:00 script test.txt
+rom.ion+ 1168231  0.0  0.0   8596  4972 pts/38   Ss   15:33   0:00 bash -i
+rom.ion+ 1168800  0.0  0.0   5852  1036 pts/38   S+   15:34   0:00 script -I test.txt
+rom.ion+ 1168801  0.0  0.0   8596  5048 pts/43   Ss   15:34   0:00 bash -i
+rom.ion+ 1168979  0.0  0.0   5852  1048 pts/43   S+   15:35   0:00 script
+rom.ion+ 1168980  0.0  0.0   8596  5008 pts/36   Ss   15:35   0:00 bash -i
+rom.ion+ 1168992  0.0  0.0   5852  1052 pts/36   S+   15:35   0:00 script
+rom.ion+ 1168993  0.0  0.0   8596  5016 pts/44   Ss   15:35   0:00 bash -i
+rom.ion+ 1169133  0.0  0.0   5852  1056 pts/44   S+   15:36   0:00 script --log-out test.txt
+rom.ion+ 1169134  0.0  0.0   8596  5028 pts/45   Ss   15:36   0:00 bash -i
+rom.ion+ 1169545  0.0  0.0   5852  1000 pts/45   S+   15:37   0:00 script test.txt
+rom.ion+ 1169546  0.0  0.0   8596  5060 pts/46   Ss   15:37   0:00 bash -i
+rom.ion+ 1169738  0.0  0.0   5852  1048 pts/46   S+   15:38   0:00 script -f test.txt
+rom.ion+ 1169739  0.0  0.0   8596  5128 pts/48   Ss   15:38   0:00 bash -i
+rom.ion+ 1170144  0.0  0.0   5852  1032 pts/48   S+   15:40   0:00 script --log-in test.txt
+rom.ion+ 1170145  0.0  0.0   8596  5100 pts/49   Ss   15:40   0:00 bash -i
+rom.ion+ 1170523  0.0  0.0   5852  1048 pts/49   S+   15:42   0:00 script -q test.txt
+rom.ion+ 1170524  0.0  0.0  11496  7384 pts/52   Ss+  15:42   0:00 bash -i
+root           1  0.0  0.0 169760 13100 ?        Ss   Okt11   4:47 /lib/systemd/systemd --system --deserialize=38
+root           2  0.0  0.0      0     0 ?        S    Okt11   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   Okt11   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   Okt11   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   Okt11   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   Okt11   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   Okt11   0:00 [kworker/0:0H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I<   Okt11   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        I    Okt11   0:00 [rcu_tasks_kthread]
+root          12  0.0  0.0      0     0 ?        I    Okt11   0:00 [rcu_tasks_rude_kthread]
+root          13  0.0  0.0      0     0 ?        I    Okt11   0:00 [rcu_tasks_trace_kthread]
+root          14  0.0  0.0      0     0 ?        S    Okt11   0:13 [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    Okt11   6:15 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    Okt11   0:10 [migration/0]
+root          18  0.0  0.0      0     0 ?        S    Okt11   0:00 [cpuhp/0]
+root          19  0.0  0.0      0     0 ?        S    Okt11   0:00 [cpuhp/1]
+root          20  0.0  0.0      0     0 ?        S    Okt11   0:10 [migration/1]
+root          21  0.0  0.0      0     0 ?        S    Okt11   0:14 [ksoftirqd/1]
+root          23  0.0  0.0      0     0 ?        I<   Okt11   0:00 [kworker/1:0H-events_highpri]
+root          24  0.0  0.0      0     0 ?        S    Okt11   0:00 [cpuhp/2]
+root          25  0.0  0.0      0     0 ?        S    Okt11   0:10 [migration/2]
+root          26  0.0  0.0      0     0 ?        S    Okt11   0:12 [ksoftirqd/2]
+root          28  0.0  0.0      0     0 ?        I<   Okt11   0:00 [kworker/2:0H-events_highpri]
+root          29  0.0  0.0      0     0 ?        S    Okt11   0:00 [cpuhp/3]
+root          30  0.0  0.0      0     0 ?        S    Okt11   0:11 [migration/3]
+root          31  0.0  0.0      0     0 ?        S    Okt11   0:12 [ksoftirqd/3]
+root          33  0.0  0.0      0     0 ?        I<   Okt11   0:00 [kworker/3:0H-events_highpri]
+root          38  0.0  0.0      0     0 ?        S    Okt11   0:00 [kdevtmpfs]
+root          39  0.0  0.0      0     0 ?        I<   Okt11   0:00 [inet_frag_wq]
+root          40  0.0  0.0      0     0 ?        S    Okt11   0:00 [kauditd]
+root          41  0.0  0.0      0     0 ?        S    Okt11   0:00 [khungtaskd]
+root          42  0.0  0.0      0     0 ?        S    Okt11   0:00 [oom_reaper]
+root          43  0.0  0.0      0     0 ?        I<   Okt11   0:00 [writeback]
+root          44  0.0  0.0      0     0 ?        S    Okt11   1:08 [kcompactd0]
+root          45  0.0  0.0      0     0 ?        SN   Okt11   0:00 [ksmd]
+root          47  0.0  0.0      0     0 ?        SN   Okt11   0:30 [khugepaged]
+root          48  0.0  0.0      0     0 ?        I<   Okt11   0:00 [kintegrityd]
+root          49  0.0  0.0      0     0 ?        I<   Okt11   0:00 [kblockd]
+root          50  0.0  0.0      0     0 ?        I<   Okt11   0:00 [blkcg_punt_bio]
+root          51  0.0  0.0      0     0 ?        I<   Okt11   0:00 [tpm_dev_wq]
+root          52  0.0  0.0      0     0 ?        I<   Okt11   0:00 [edac-poller]
+root          53  0.0  0.0      0     0 ?        I<   Okt11   0:00 [devfreq_wq]
+root          55  0.0  0.0      0     0 ?        I<   Okt11   0:10 [kworker/1:1H-kblockd]
+root          56  0.0  0.0      0     0 ?        S    Okt11   0:05 [kswapd0]
+root          63  0.0  0.0      0     0 ?        I<   Okt11   0:00 [kthrotld]
+root          65  0.0  0.0      0     0 ?        I<   Okt11   0:00 [acpi_thermal_pm]
+root          66  0.0  0.0      0     0 ?        S    Okt11   0:00 [xenbus_probe]
+root          67  0.0  0.0      0     0 ?        I<   Okt11   0:00 [mld]
+root          68  0.0  0.0      0     0 ?        I<   Okt11   0:00 [ipv6_addrconf]
+root          73  0.0  0.0      0     0 ?        I<   Okt11   0:00 [kstrp]
+root          78  0.0  0.0      0     0 ?        I<   Okt11   0:00 [zswap-shrink]
+root          79  0.0  0.0      0     0 ?        I<   Okt11   0:00 [kworker/u9:0]
+root         123  0.0  0.0      0     0 ?        I<   Okt11   0:10 [kworker/3:1H-kblockd]
+root         138  0.0  0.0      0     0 ?        I<   Okt11   0:10 [kworker/0:1H-kblockd]
+root         139  0.0  0.0      0     0 ?        I<   Okt11   0:10 [kworker/2:1H-kblockd]
+root         155  0.0  0.0      0     0 ?        I<   Okt11   0:00 [ata_sff]
+root         157  0.0  0.0      0     0 ?        S    Okt11   0:00 [scsi_eh_0]
+root         158  0.0  0.0      0     0 ?        I<   Okt11   0:00 [scsi_tmf_0]
+root         159  0.0  0.0      0     0 ?        S    Okt11   0:00 [scsi_eh_1]
+root         160  0.0  0.0      0     0 ?        I<   Okt11   0:00 [scsi_tmf_1]
+root         162  0.0  0.0      0     0 ?        S    Okt11   0:00 [scsi_eh_2]
+root         163  0.0  0.0      0     0 ?        I<   Okt11   0:00 [scsi_tmf_2]
+root         201  0.0  0.0      0     0 ?        S    Okt11   0:48 [jbd2/sda1-8]
+root         202  0.0  0.0      0     0 ?        I<   Okt11   0:00 [ext4-rsv-conver]
+root         393  0.0  0.0      0     0 ?        S    Okt11   0:00 [hwrng]
+root         395  0.0  0.0      0     0 ?        I<   Okt11   0:00 [cryptd]
+root         501  0.0  0.0      0     0 ?        I<   Okt11   0:00 [nfit]
+root         505  0.0  0.0   6964  2456 ?        Ss   Okt11   0:04 /usr/sbin/cron -f
+root         515  0.0  0.0  17448  7056 ?        Ss   Okt11   0:29 /lib/systemd/systemd-logind
+root         518  0.0  0.0   5852  1004 tty1     Ss+  Okt11   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         530  0.0  0.1 111076 17860 ?        Ssl  Okt11   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unatt
+root         533  0.0  0.0  20960  1348 ?        Ss   Okt11   0:00 nginx: master process /usr/sbin/nginx -c /etc/nginx/n
+root        3038  0.0  0.4 223540 73256 ?        Ssl  Okt11   1:39 /opt/puppetlabs/puppet/bin/ruby /opt/puppetlabs/puppe
+root        4528  0.0  0.0      0     0 ?        I<   Okt11   0:00 [tls-strp]
+root        6246  0.0  0.0      0     0 ?        I<   Okt11   0:00 [dio/sda1]
+root       23688  0.0  1.7 674432 278712 ?       Ss   Okt12   1:47 /lib/systemd/systemd-journald
+root       23790  0.0  0.0  25492  5936 ?        Ss   Okt12   0:02 /lib/systemd/systemd-udevd
+root       43526  0.0  0.0  80236  3184 ?        Ssl  Okt12  16:11 /usr/sbin/qemu-ga
+root       60260  0.0  0.0  15408  8104 ?        Ss   Okt12   0:08 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startu
+root     1141718  0.0  0.0  17792 11128 ?        Ss   13:46   0:00 sshd: oda.alkhodary [priv]
+root     1151521  0.0  0.0  17792 11224 ?        Ss   14:27   0:00 sshd: rom.ionov [priv]
+root     1193130  0.0  0.0  17792 11296 ?        Ss   16:46   0:00 sshd: joe.steschulat [priv]
+root     1299003  0.0  0.0  17792 11080 ?        Ss   21:22   0:00 sshd: pra.dhakal [priv]
+root     1303441  0.0  0.0      0     0 ?        I    21:42   0:00 [kworker/2:0-events]
+root     1315467  0.0  0.0  17792 11116 ?        Ss   22:27   0:00 sshd: sim.dhimal [priv]
+root     1315959  0.0  0.0  17792 11104 ?        Ss   22:29   0:00 sshd: dip.sah [priv]
+root     1316226  0.0  0.0  17792 11220 ?        Ss   22:30   0:00 sshd: jos.otholt [priv]
+root     1316884  0.0  0.0  17792 11212 ?        Ss   22:32   0:00 sshd: tah.hamdi [priv]
+root     1322168  0.0  0.0  17792 11156 ?        Ss   22:54   0:00 sshd: ale.wratschinski [priv]
+root     1323356  0.0  0.0      0     0 ?        I    22:55   0:00 [kworker/0:2-cgroup_destroy]
+root     1324454  0.0  0.0      0     0 ?        I    22:59   0:00 [kworker/3:2-events]
+root     1325094  0.0  0.0      0     0 ?        I    23:03   0:00 [kworker/2:1-cgroup_destroy]
+root     1325631  0.0  0.0      0     0 ?        I    23:05   0:00 [kworker/u8:2-flush-8:0]
+root     1325669  0.0  0.0      0     0 ?        I    23:05   0:00 [kworker/1:1-events_power_efficient]
+root     1325786  0.0  0.0  17792 11140 ?        Ss   23:06   0:00 sshd: mic.mirau [priv]
+root     1326427  0.0  0.0  17792 11176 ?        Ss   23:08   0:00 sshd: jos.otholt [priv]
+root     1327276  0.0  0.0      0     0 ?        I    23:12   0:00 [kworker/0:1-events]
+root     1327313  0.0  0.0      0     0 ?        I    23:12   0:00 [kworker/1:3-cgroup_destroy]
+root     1327763  0.0  0.0      0     0 ?        I    23:15   0:00 [kworker/u8:1-events_unbound]
+root     1328883  0.0  0.0      0     0 ?        I    23:20   0:00 [kworker/3:3-events_freezable]
+root     1329000  0.0  0.0  17792 11152 ?        Ss   23:21   0:00 sshd: sam.edding [priv]
+root     1329398  0.0  0.0      0     0 ?        I    23:23   0:00 [kworker/u8:0-events_unbound]
+root     3795827  0.0  0.0  18984 10828 ?        Ss   Okt26   0:01 /lib/systemd/systemd --user
+root     3795828  0.0  0.0 170568  3924 ?        S    Okt26   0:00 (sd-pam)
+root     3797904  0.0  0.0   8788  4140 ?        Ss   Okt26   0:00 tmux
+root     3797905  0.0  0.0  10308  5988 pts/25   Ss+  Okt26   0:00 -bash
+sam.edd+ 1329017  0.0  0.0  19068 10788 ?        Ss   23:21   0:00 /lib/systemd/systemd --user
+sam.edd+ 1329018  0.0  0.0 170820  4104 ?        S    23:21   0:00 (sd-pam)
+sam.edd+ 1329038  0.0  0.0  18052  6936 ?        S    23:21   0:00 sshd: sam.edding@pts/33
+sam.edd+ 1329039  0.0  0.0   8592  5108 pts/33   Ss   23:21   0:00 -bash
+sam.edd+ 1331585  0.0  0.0  11664  4888 pts/33   R+   23:29   0:00 ps aux --sort=user
+seb.lan+ 3408413  0.0  0.0  19044 10764 ?        Ss   Okt25   0:02 /lib/systemd/systemd --user
+seb.lan+ 3408414  0.0  0.0 170360  3660 ?        S    Okt25   0:00 (sd-pam)
+seb.lan+ 3408463  0.0  0.0   5852   956 ?        S    Okt25   0:00 script
+seb.lan+ 3408464  0.0  0.0   8596  4972 pts/17   Ss   Okt25   0:00 bash -i
+seb.lan+ 3409426  0.0  0.0  12612  4996 pts/17   S+   Okt25   0:00 git log
+seb.lan+ 3409427  0.0  0.0   6196  1236 pts/17   S+   Okt25   0:00 /usr/bin/pager
+seb.pre+ 3756076  0.0  0.0  18984 10744 ?        Ss   Okt26   0:01 /lib/systemd/systemd --user
+seb.pre+ 3756077  0.0  0.0 170616  3808 ?        S    Okt26   0:00 (sd-pam)
+seb.pre+ 3756173  0.0  0.0   2576   800 ?        S    Okt26   0:00 sh /home/student/seb.preuss/.vscode-server/bin/f1b07b
+seb.pre+ 3756183  0.0  0.9 1017004 159904 ?      Sl   Okt26   2:24 /home/student/seb.preuss/.vscode-server/bin/f1b07bd25
+seb.pre+ 3756246  0.0  0.4 773964 68240 ?        Sl   Okt26   0:20 /home/student/seb.preuss/.vscode-server/bin/f1b07bd25
+seb.pre+ 3758111  0.0  0.3 848400 56568 ?        Sl   Okt26   0:45 /home/student/seb.preuss/.vscode-server/bin/f1b07bd25
+seb.pre+ 3870872  0.0  0.1 169120 21472 ?        Sl   Okt26   0:00 /home/student/seb.preuss/.vscode-server/bin/f1b07bd25
+sim.dhi+ 1315478  0.0  0.0  19068 10760 ?        Ss   22:27   0:00 /lib/systemd/systemd --user
+sim.dhi+ 1315479  0.0  0.0 170820  4104 ?        S    22:27   0:00 (sd-pam)
+sim.dhi+ 1315500  0.0  0.0  18052  6928 ?        S    22:27   0:00 sshd: sim.dhimal@pts/23
+sim.dhi+ 1315501  0.0  0.0   8592  5048 pts/23   Ss   22:27   0:00 -bash
+sim.dhi+ 1317436  0.0  0.1  93044 16444 pts/23   Sl+  22:34   0:00 vim lilo.c
+srasubm+  121151  0.0  0.4  97748 75676 ?        Ss   Okt12   0:03 /opt/srabmit/web/venv/bin/python /usr/local/bin/srasu
+srasubm+  450629  0.0  0.1  32240 17932 ?        Ss   Okt17   2:26 /opt/srabmit/web/venv/bin/python3.11 /opt/srabmit/web
+srasubm+  450631  0.0  0.5 100708 88136 ?        S    Okt17   2:31 /opt/srabmit/web/venv/bin/python3.11 /opt/srabmit/web
+systemd+   23761  0.0  0.0  90048  6656 ?        Ssl  Okt12   0:07 /lib/systemd/systemd-timesyncd
+tah.ham+ 1316895  0.0  0.0  19072 10804 ?        Ss   22:32   0:00 /lib/systemd/systemd --user
+tah.ham+ 1316896  0.0  0.0 170820  4104 ?        S    22:32   0:00 (sd-pam)
+tah.ham+ 1316917  0.0  0.0  18052  6924 ?        S    22:32   0:00 sshd: tah.hamdi@pts/40
+tah.ham+ 1316918  0.0  0.0   8592  4976 pts/40   Ss+  22:32   0:00 -bash
+tho.kinz 3289113  0.0  0.0  19024 10712 ?        Ss   Okt24   0:02 /lib/systemd/systemd --user
+tho.kinz 3289114  0.0  0.0 170496  3752 ?        S    Okt24   0:00 (sd-pam)
+tho.kinz 3298290  0.0  0.0   5852  1012 ?        S    Okt24   0:00 script prozesse.txt
+tho.kinz 3298291  0.0  0.0   8596  4960 pts/5    Ss   Okt24   0:00 bash -i
+tho.kinz 3298305  0.0  0.0   5852   952 pts/5    S+   Okt24   0:00 script stop
+tho.kinz 3298306  0.0  0.0   9972  5748 pts/6    Ss   Okt24   0:00 bash -i
+tho.kinz 3299627  0.0  0.0   5852   936 pts/6    S+   Okt24   0:00 script dateien.txt
+tho.kinz 3299628  0.0  0.0   9956  5744 pts/11   Ss+  Okt24   0:00 bash -i
+tob.ger+   10594  0.0  0.1  29904 19384 ?        Sl   Okt27   0:00 /home/student/tob.germer/.vscode-server/extensions/ms
+tob.ger+ 1187724  0.0  0.0  19000 10752 ?        Ss   16:34   0:00 /lib/systemd/systemd --user
+tob.ger+ 1187726  0.0  0.0 170820  4092 ?        S    16:34   0:00 (sd-pam)
+wae.laa+ 1331581  0.0  0.0   5820   940 ?        S    23:29   0:00 sleep 5
+wae.laa+ 3518819  0.0  0.0  18976 10744 ?        Ss   Okt25   0:02 /lib/systemd/systemd --user
+wae.laa+ 3518820  0.0  0.0 170520  3732 ?        S    Okt25   0:00 (sd-pam)
+wae.laa+ 3519446  0.0  0.0   7288  3420 ?        S    Okt25   0:34 /bin/bash /gbs/aufgaben/a1/endlos_stern.sh
+www-data     535  0.0  0.0  23048  7892 ?        S    Okt11   2:07 nginx: worker process
+www-data     537  0.0  0.0  23188  7956 ?        S    Okt11   2:05 nginx: worker process
+www-data     539  0.0  0.0  23088  7940 ?        S    Okt11   1:53 nginx: worker process
+www-data     540  0.0  0.0  23480  7556 ?        S    Okt11   2:06 nginx: worker process
+yul.mor+ 1331576  0.0  0.0   5820   912 ?        S    23:29   0:00 sleep 5
+yul.mor+ 3016123  0.0  0.0  19008 10704 ?        Ss   Okt23   0:03 /lib/systemd/systemd --user
+yul.mor+ 3016124  0.0  0.0 170440  3004 ?        S    Okt23   0:00 (sd-pam)
+yul.mor+ 3018062  0.0  0.0   7560  3352 ?        S    Okt23   0:45 /bin/bash ./endlos_stern.sh
