@@ -1,0 +1,14 @@
+$: cd /gbs/aufgaben/a1
+$: ./endlos_stern
+    ^Z (Ctrl + Z) 
+$: bg
+$: ps
+    PID TTY          TIME CMD
+4000358 pts/5    00:00:00 bash
+4001533 pts/5    00:00:00 endlos_stern.sh
+4001542 pts/5    00:00:00 sleep
+4001543 pts/5    00:00:00 ps
+$: kill 4001533
+
+(I left out the output of the endlos_sterne process as it was annoying)
+

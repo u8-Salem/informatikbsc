@@ -1,0 +1,20 @@
+Responsiilities of the operating system
+
+core responsibilities:    
+    - generally management of hardware and software. 
+    - mulitplexing and isolation through processes. 
+    - managment of CPU, memory, etc.. 
+    - resource scheduling. 
+
+
+2) 
+ls | wc -l:
+    - prints the amount of newlines the output of the ls command contains
+
+PATH:
+    - PATH contains directories that automatically get searched for an executable 
+      when a command is executed in the shell.
+
+Weeknum: 
+    - date +%U
+

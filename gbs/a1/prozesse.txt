@@ -1,0 +1,225 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ala.bis+ 4084922  0.0  0.0  19056  4524 ?        Ss   Nov13   0:14 /lib/systemd/systemd --user
+ala.bis+ 4084923  0.0  0.0 170728   488 ?        S    Nov13   0:00 (sd-pam)
+ala.bis+ 4090453  0.0  0.0   7664     0 ?        Ss   Nov13   0:00 ssh-agent -s
+ant.mue+ 2608621  0.0  0.0  18988 10692 ?        Ss   Dez20   0:03 /lib/systemd/systemd --user
+ant.mue+ 2608622  0.0  0.0 170620  3300 ?        S    Dez20   0:00 (sd-pam)
+ant.mue+ 2608803  0.0  0.0 698800  1768 ?        Sl   Dez20   0:01 /tmp/gbs_test_05phdfku/main 50
+cor.mag+ 2128900  0.0  0.0  19084  4548 ?        Ss   Nov05   0:17 /lib/systemd/systemd --user
+cor.mag+ 2128901  0.0  0.0 170820   280 ?        S    Nov05   0:00 (sd-pam)
+cor.mag+ 2129048  0.0  0.0   7664     0 ?        Ss   Nov05   0:00 ssh-agent -s
+dar.vol+ 2372012  0.0  0.0 4252280    0 ?        Sl   Dez18   0:00 /home/student/dar.vollmer/.vscode-server/extensions/ms-vscode.cpptools-1.18.5/bin/cpptools-srv 2371954 {5160DAC2-47A0-4CEA-AA42-7931498536A8}
+dar.vol+ 3908922  0.0  0.0  51820     0 ?        S    Dez07   0:00 /usr/bin/valgrind.bin --vgdb=yes --vgdb-error=0 ./clash
+duc.doan 1778952  0.0  0.0  19028  5068 ?        Ss   Nov30   0:08 /lib/systemd/systemd --user
+duc.doan 1778953  0.0  0.0 171404  1228 ?        S    Nov30   0:00 (sd-pam)
+duc.doan 1802613  0.0  0.0   2460     0 ?        S    Nov30   0:00 /tmp/gbs_test_8cbvhq3q/main /tmp/gbs_test_8cbvhq3q/__testdir/hello_world.c
+duc.doan 1802820  0.0  0.0   2460     0 ?        S    Nov30   0:00 /tmp/gbs_test_8cbvhq3q/main /tmp/gbs_test_8cbvhq3q/__testdir/hello_world.c /tmp/gbs_test_8cbvhq3q/__testdir/a/b/c /tmp/gbs_test_8cbvhq3q/__testdir/a/b
+hen.eic+ 3784725  0.0  0.0  18936 10704 ?        Ss   Dez27   0:01 /lib/systemd/systemd --user
+hen.eic+ 3784726  0.0  0.0 170620  4504 ?        S    Dez27   0:00 (sd-pam)
+hen.eic+ 3786550  0.0  0.0  92584  1100 ?        Sl   Dez27   0:00 /tmp/gbs_test_t9b5y0la/main 1
+hen.eic+ 3786618  0.0  0.0 649848  2016 ?        Sl   Dez27   0:17 /tmp/gbs_test_t9b5y0la/main 50
+hen.eic+ 3787130  0.0  0.3 405776 64492 ?        Sl   Dez27   0:00 gdb -nx -x /home/student/hen.eichler/a5/tests/gdb_trace.py --args /tmp/gbs_test_t9b5y0la/main 1
+hen.eic+ 3787136  0.0  0.0  92584  1352 ?        Sl   Dez27   0:00 /tmp/gbs_test_t9b5y0la/main 1
+joe.ste+ 2330363  0.0  0.0  18980  5224 ?        Ss   Dez17   0:03 /lib/systemd/systemd --user
+joe.ste+ 2330364  0.0  0.0 170636   684 ?        S    Dez17   0:00 (sd-pam)
+joe.ste+ 2339774  0.0  0.0  27048     0 ?        Sl   Dez17   0:00 /tmp/gbs_test_qfx4__mk/main 1
+joe.ste+ 2339778  0.0  0.0  18852     0 ?        Sl   Dez17   0:00 /tmp/gbs_test_qfx4__mk/main 1
+joe.ste+ 2339790  0.0  0.0  18852     0 ?        Sl   Dez17   0:00 /tmp/gbs_test_qfx4__mk/main 1
+joe.ste+ 2339795  0.0  0.0 420456     4 ?        Sl   Dez17   0:00 /tmp/gbs_test_qfx4__mk/main 50
+joe.ste+ 2339857  0.0  0.1 405948 18224 ?        Sl   Dez17   0:00 gdb -nx -x /home/student/joe.steschulat/a5/tests/gdb_trace.py --args /tmp/gbs_test_qfx4__mk/main 1
+joe.ste+ 2339863  0.0  0.0  18852    48 ?        Sl   Dez17   0:00 /tmp/gbs_test_qfx4__mk/main 1
+joe.ste+ 2339883  0.0  0.2 120120 36824 ?        Sl   Dez17   0:00 /usr/bin/valgrind.bin -q --error-exitcode=1 --leak-check=full /tmp/gbs_test_juiakfgg/main 1
+jul.mer+ 2917001  0.0  0.0  19100  4904 ?        Ss   Nov23   0:10 /lib/systemd/systemd --user
+jul.mer+ 2917002  0.0  0.0 171276   504 ?        S    Nov23   0:00 (sd-pam)
+jul.mer+ 3010878  0.0  0.0   2460     0 ?        S    Nov23   0:00 /tmp/gbs_test_rlcr9tzn/main /tmp/gbs_test_rlcr9tzn/__testdir/hello_world.c /tmp/gbs_test_rlcr9tzn/__testdir/a/b/c/big_hello_world.c 9tzn/__testdir/a/b
+kar.wer+  685589  0.0  0.0  18984  4616 ?        Ss   Dez11   0:04 /lib/systemd/systemd --user
+kar.wer+  685590  0.0  0.0 170400   636 ?        S    Dez11   0:00 (sd-pam)
+kar.wer+  851737  0.0  0.0   2576     0 ?        S    Dez11   0:00 sh /home/student/kar.werner/.vscode-server/bin/ccbaa2d27e38e5afa3e5c21c1c7bef4657064247/server.sh --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /home/student/kar.werner/.vscode-server/.ccbaa2d27e38e5afa3e5c21c1c7bef4657064247.token
+kar.wer+  851744  0.0  0.1 905668 30988 ?        Sl   Dez11   3:22 /home/student/kar.werner/.vscode-server/bin/ccbaa2d27e38e5afa3e5c21c1c7bef4657064247/node /home/student/kar.werner/.vscode-server/bin/ccbaa2d27e38e5afa3e5c21c1c7bef4657064247/out/vs/server/main.js --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /home/student/kar.werner/.vscode-server/.ccbaa2d27e38e5afa3e5c21c1c7bef4657064247.token
+kar.wer+  851782  0.0  0.1 613720 18676 ?        Sl   Dez11   1:05 /home/student/kar.werner/.vscode-server/bin/ccbaa2d27e38e5afa3e5c21c1c7bef4657064247/node /home/student/kar.werner/.vscode-server/bin/ccbaa2d27e38e5afa3e5c21c1c7bef4657064247/out/bootstrap-fork --type=ptyHost
+mail         511  0.0  0.0   5672   588 ?        Ss   Okt11   0:01 /usr/sbin/nullmailer-send
+mal.hue+  594363  0.0  0.0  19044  5280 ?        Ss   Dez10   0:04 /lib/systemd/systemd --user
+mal.hue+  594364  0.0  0.0 170432   616 ?        S    Dez10   0:00 (sd-pam)
+mal.hue+  630699  0.0  0.0 405956     0 ?        Sl   Dez10   0:00 gdb -nx -x /home/student/mal.huebsch/a5/tests/gdb_trace.py --args /tmp/gbs_test_2nf7d2sf/main 1
+mal.hue+  630705  0.0  0.0  10656    48 ?        Sl   Dez10   0:00 /tmp/gbs_test_2nf7d2sf/main 1
+mal.hue+  632242  0.0  0.1 405924 18720 ?        Sl   Dez10   0:00 gdb -nx -x /home/student/mal.huebsch/a5/tests/gdb_trace.py --args /tmp/gbs_test_2jfpulxu/main 1
+mal.hue+  632248  0.0  0.0  10656    72 ?        Sl   Dez10   0:00 /tmp/gbs_test_2jfpulxu/main 1
+mal.hue+ 2204062  0.0  0.0 158120     0 ?        Sl   Dez15   0:00 /tmp/gbs_test_gykxj4lv/main 1
+mal.hue+ 2204067  0.0  0.0 158120     0 ?        Sl   Dez15   0:00 /tmp/gbs_test_gykxj4lv/main 1
+mal.hue+ 2204109  0.0  0.0 158120     0 ?        Sl   Dez15   0:00 /tmp/gbs_test_gykxj4lv/main 1
+mal.hue+ 2204162  0.0  0.0 1092016 1832 ?        Sl   Dez15   0:01 /tmp/gbs_test_gykxj4lv/main 50
+mal.hue+ 2204674  0.0  0.1 405784 18144 ?        Sl   Dez15   0:00 gdb -nx -x /home/student/mal.huebsch/a5/tests/gdb_trace.py --args /tmp/gbs_test_gykxj4lv/main 1
+mal.hue+ 2204680  0.0  0.0 149924    60 ?        Sl   Dez15   0:00 /tmp/gbs_test_gykxj4lv/main 1
+mal.hue+ 2204696  0.0  0.0 231852     0 ?        Sl   Dez15   0:00 /tmp/gbs_test_mld52xbr/main 5
+mal.hue+ 2204701  0.0  0.0 174512  2032 ?        Sl   Dez15   0:00 /tmp/gbs_test_mld52xbr/main 5
+mal.hue+ 2204747  0.0  0.0 240048  2008 ?        Sl   Dez15   0:00 /tmp/gbs_test_mld52xbr/main 10
+mal.hue+ 2204851  0.0  0.0 1419696    4 ?        Sl   Dez15   0:01 /tmp/gbs_test_mld52xbr/main 50
+mal.hue+ 2205388  0.0  0.0 131404 15104 ?        Sl   Dez15   0:00 /usr/bin/valgrind.bin -q --error-exitcode=1 --leak-check=full /tmp/gbs_test_qpwhwobh/main 1
+mal.hue+ 2205444  0.0  0.4 157140 79536 ?        Sl   Dez15   0:00 /usr/bin/valgrind.bin -q --error-exitcode=1 --leak-check=full /tmp/gbs_test_4y_b1fin/main 5
+mal.hue+ 2299233  0.0  0.1 120120 25288 ?        Sl   Dez17   0:17 /usr/bin/valgrind.bin -q --error-exitcode=1 --leak-check=full /tmp/gbs_test_ianyiawf/main 1
+max.ols+ 3523589  0.0  0.0  19020  3276 ?        Ss   Nov23   0:10 /lib/systemd/systemd --user
+max.ols+ 3523590  0.0  0.0 171276   568 ?        S    Nov23   0:00 (sd-pam)
+max.ols+ 3550891  0.0  0.0   2592     0 ?        S    Nov23   0:00 /tmp/gbs_test_5axaut4a/main /tmp/gbs_test_5axaut4a/__testdir -line=print
+max.ols+ 3550929  0.0  0.0   2592     0 ?        S    Nov23   0:00 /tmp/gbs_test_5axaut4a/main /tmp/gbs_test_5axaut4a/__testdir -line=pr.+t
+message+     506  0.0  0.0  10160  3600 ?        Ss   Okt11   3:28 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+moh.atya   21589  0.0  0.0  19028  3840 ?        Ss   Nov28   0:09 /lib/systemd/systemd --user
+moh.atya   21590  0.0  0.0 171276   532 ?        S    Nov28   0:00 (sd-pam)
+moh.atya   38030  0.0  0.0 177316     0 ?        Sl   Nov28   0:00 /home/student/moh.atya/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node --dns-result-order=ipv4first /home/student/moh.atya/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+moh.atya   38178  0.0  0.0 185512  1756 ?        Sl   Nov28   0:00 /home/student/moh.atya/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node --dns-result-order=ipv4first /home/student/moh.atya/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+moh.atya   38385  0.0  0.0 169120     0 ?        Sl   Nov28   0:00 /home/student/moh.atya/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node --dns-result-order=ipv4first /home/student/moh.atya/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+mysql       6579  0.0  0.8 2530724 131136 ?      Ssl  Okt11  85:30 /usr/sbin/mariadbd
+ngu.tran 2801997  0.0  0.0  19016  4580 ?        Ss   Nov22   0:11 /lib/systemd/systemd --user
+ngu.tran 2801998  0.0  0.0 171276   500 ?        S    Nov22   0:00 (sd-pam)
+ngu.tran 2849138  0.0  0.0   2692     0 ?        S    Nov22   0:00 /tmp/gbs_test_18s7g4ep/main /tmp/gbs_test_18s7g4ep/__testdir/hello_world.c /tmp/gbs_test_18s7g4ep/__testdir/a/b/c /tmp/gbs_test_18s7g4ep/__testdir/a/b
+ole.kra+ 1520374  0.0  0.0  19076  4980 ?        Ss   Okt20   0:22 /lib/systemd/systemd --user
+ole.kra+ 1520375  0.0  0.0 170400   272 ?        S    Okt20   0:00 (sd-pam)
+ole.kra+ 1520535  0.0  0.0   8736  1616 ?        Ss   Okt20   0:00 tmux
+ole.kra+ 1520536  0.0  0.0   8624     8 pts/20   Ss+  Okt20   0:00 -bash
+pau.aum+ 1731476  0.0  0.0  10016     8 pts/36   Ss+  Nov30   0:00 -bash
+pau.aum+ 1734146  0.0  0.0   8624     4 pts/11   Ss   Nov30   0:00 -bash
+pau.aum+ 1734374  0.0  0.0   9092     0 pts/11   S+   Nov30   0:00 nano halde.c
+pau.aum+ 3360569  0.0  0.0  19060  4612 ?        Ss   Nov23   0:10 /lib/systemd/systemd --user
+pau.aum+ 3360570  0.0  0.0 171276   512 ?        S    Nov23   0:00 (sd-pam)
+pau.aum+ 3393405  0.0  0.0   9344  1796 ?        Ss   Nov23   0:01 tmux
+pau.aum+ 3393406  0.0  0.0  10256     8 pts/43   Ss+  Nov23   0:00 -bash
+pra.dha+  347587  0.0  0.0  19052  4992 ?        Ss   Okt29   0:20 /lib/systemd/systemd --user
+pra.dha+  347588  0.0  0.0 170688   280 ?        S    Okt29   0:00 (sd-pam)
+pra.dha+  348611  0.0  0.0   7664     4 ?        Ss   Okt29   0:00 ssh-agent
+pra.dha+  431875  0.0  0.0   7796     0 ?        Ss   Okt29   0:00 ssh-agent
+root           1  0.0  0.0 169560  9864 ?        Ss   Okt11  18:45 /lib/systemd/systemd --system --deserialize=37
+root           2  0.0  0.0      0     0 ?        S    Okt11   0:02 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   Okt11   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   Okt11   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   Okt11   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   Okt11   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   Okt11   0:00 [kworker/0:0H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I<   Okt11   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        I    Okt11   0:00 [rcu_tasks_kthread]
+root          12  0.0  0.0      0     0 ?        I    Okt11   0:00 [rcu_tasks_rude_kthread]
+root          13  0.0  0.0      0     0 ?        I    Okt11   0:00 [rcu_tasks_trace_kthread]
+root          14  0.0  0.0      0     0 ?        S    Okt11   2:13 [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    Okt11  33:19 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    Okt11   0:38 [migration/0]
+root          18  0.0  0.0      0     0 ?        S    Okt11   0:00 [cpuhp/0]
+root          19  0.0  0.0      0     0 ?        S    Okt11   0:00 [cpuhp/1]
+root          20  0.0  0.0      0     0 ?        S    Okt11   0:39 [migration/1]
+root          21  0.0  0.0      0     0 ?        S    Okt11   2:11 [ksoftirqd/1]
+root          23  0.0  0.0      0     0 ?        I<   Okt11   0:00 [kworker/1:0H-events_highpri]
+root          24  0.0  0.0      0     0 ?        S    Okt11   0:00 [cpuhp/2]
+root          25  0.0  0.0      0     0 ?        S    Okt11   0:38 [migration/2]
+root          26  0.0  0.0      0     0 ?        S    Okt11   2:06 [ksoftirqd/2]
+root          28  0.0  0.0      0     0 ?        I<   Okt11   0:00 [kworker/2:0H-events_highpri]
+root          29  0.0  0.0      0     0 ?        S    Okt11   0:00 [cpuhp/3]
+root          30  0.0  0.0      0     0 ?        S    Okt11   0:41 [migration/3]
+root          31  0.0  0.0      0     0 ?        S    Okt11   2:09 [ksoftirqd/3]
+root          33  0.0  0.0      0     0 ?        I<   Okt11   0:00 [kworker/3:0H-events_highpri]
+root          38  0.0  0.0      0     0 ?        S    Okt11   0:00 [kdevtmpfs]
+root          39  0.0  0.0      0     0 ?        I<   Okt11   0:00 [inet_frag_wq]
+root          40  0.0  0.0      0     0 ?        S    Okt11   0:00 [kauditd]
+root          41  0.0  0.0      0     0 ?        S    Okt11   0:03 [khungtaskd]
+root          42  0.0  0.0      0     0 ?        S    Okt11   0:00 [oom_reaper]
+root          43  0.0  0.0      0     0 ?        I<   Okt11   0:00 [writeback]
+root          44  0.0  0.0      0     0 ?        S    Okt11   5:13 [kcompactd0]
+root          45  0.0  0.0      0     0 ?        SN   Okt11   0:00 [ksmd]
+root          47  0.0  0.0      0     0 ?        SN   Okt11   2:00 [khugepaged]
+root          48  0.0  0.0      0     0 ?        I<   Okt11   0:00 [kintegrityd]
+root          49  0.0  0.0      0     0 ?        I<   Okt11   0:00 [kblockd]
+root          50  0.0  0.0      0     0 ?        I<   Okt11   0:00 [blkcg_punt_bio]
+root          51  0.0  0.0      0     0 ?        I<   Okt11   0:00 [tpm_dev_wq]
+root          52  0.0  0.0      0     0 ?        I<   Okt11   0:00 [edac-poller]
+root          53  0.0  0.0      0     0 ?        I<   Okt11   0:00 [devfreq_wq]
+root          55  0.0  0.0      0     0 ?        I<   Okt11   0:41 [kworker/1:1H-kblockd]
+root          56  0.0  0.0      0     0 ?        S    Okt11   0:57 [kswapd0]
+root          63  0.0  0.0      0     0 ?        I<   Okt11   0:00 [kthrotld]
+root          65  0.0  0.0      0     0 ?        I<   Okt11   0:00 [acpi_thermal_pm]
+root          66  0.0  0.0      0     0 ?        S    Okt11   0:00 [xenbus_probe]
+root          67  0.0  0.0      0     0 ?        I<   Okt11   0:00 [mld]
+root          68  0.0  0.0      0     0 ?        I<   Okt11   0:00 [ipv6_addrconf]
+root          73  0.0  0.0      0     0 ?        I<   Okt11   0:00 [kstrp]
+root          78  0.0  0.0      0     0 ?        I<   Okt11   0:00 [zswap-shrink]
+root          79  0.0  0.0      0     0 ?        I<   Okt11   0:00 [kworker/u9:0]
+root         123  0.0  0.0      0     0 ?        I<   Okt11   0:41 [kworker/3:1H-kblockd]
+root         138  0.0  0.0      0     0 ?        I<   Okt11   0:42 [kworker/0:1H-kblockd]
+root         139  0.0  0.0      0     0 ?        I<   Okt11   0:41 [kworker/2:1H-kblockd]
+root         155  0.0  0.0      0     0 ?        I<   Okt11   0:00 [ata_sff]
+root         157  0.0  0.0      0     0 ?        S    Okt11   0:00 [scsi_eh_0]
+root         158  0.0  0.0      0     0 ?        I<   Okt11   0:00 [scsi_tmf_0]
+root         159  0.0  0.0      0     0 ?        S    Okt11   0:00 [scsi_eh_1]
+root         160  0.0  0.0      0     0 ?        I<   Okt11   0:00 [scsi_tmf_1]
+root         162  0.0  0.0      0     0 ?        S    Okt11   0:00 [scsi_eh_2]
+root         163  0.0  0.0      0     0 ?        I<   Okt11   0:00 [scsi_tmf_2]
+root         201  0.0  0.0      0     0 ?        S    Okt11   2:47 [jbd2/sda1-8]
+root         202  0.0  0.0      0     0 ?        I<   Okt11   0:00 [ext4-rsv-conver]
+root         393  0.0  0.0      0     0 ?        S    Okt11   0:03 [hwrng]
+root         395  0.0  0.0      0     0 ?        I<   Okt11   0:00 [cryptd]
+root         501  0.0  0.0      0     0 ?        I<   Okt11   0:00 [nfit]
+root         505  0.0  0.0   6964   848 ?        Ss   Okt11   0:17 /usr/sbin/cron -f
+root         515  0.0  0.0  18316  5008 ?        Ss   Okt11   2:07 /lib/systemd/systemd-logind
+root         518  0.0  0.0   5852     0 tty1     Ss+  Okt11   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         530  0.0  0.0 111076     0 ?        Ssl  Okt11   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         533  0.0  0.0  20960   152 ?        Ss   Okt11   0:00 nginx: master process /usr/sbin/nginx -c /etc/nginx/nginx.conf
+root        4528  0.0  0.0      0     0 ?        I<   Okt11   0:00 [tls-strp]
+root        6246  0.0  0.0      0     0 ?        I<   Okt11   0:00 [dio/sda1]
+root      566681  0.0  0.6 295064 112984 ?       Ss   Dez10   1:10 /lib/systemd/systemd-journald
+root      566781  0.0  0.0  25536   480 ?        Ss   Dez10   0:02 /lib/systemd/systemd-udevd
+root      584573  0.0  0.0  80240  1200 ?        Ssl  Dez10  15:02 /usr/sbin/qemu-ga
+root     2809991  0.0  0.3 217400 55292 ?        Ssl  Nov08   4:11 /opt/puppetlabs/puppet/bin/ruby /opt/puppetlabs/puppet/bin/puppet agent --no-daemonize
+root     3220009  0.0  0.0  15412  9424 ?        Ss   Dez22   0:03 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root     3991750  0.0  0.0      0     0 ?        I    03:35   0:00 [kworker/0:0-cgroup_destroy]
+root     3996918  0.0  0.0      0     0 ?        I    06:23   0:01 [kworker/3:3-cgroup_destroy]
+root     3998629  0.0  0.0      0     0 ?        I    07:15   0:00 [kworker/2:2-cgroup_destroy]
+root     3999392  0.0  0.0      0     0 ?        I    07:30   0:00 [kworker/u8:0-events_unbound]
+root     3999437  0.0  0.0      0     0 ?        I    07:33   0:00 [kworker/1:1-cgroup_destroy]
+root     3999499  0.0  0.0      0     0 ?        I    07:50   0:00 [kworker/0:2-events]
+root     3999585  0.0  0.0      0     0 ?        I    07:50   0:00 [kworker/3:0-events]
+root     4000342  0.0  0.0  17796 11196 ?        Ss   08:03   0:00 sshd: sam.edding [priv]
+root     4000377  0.0  0.0      0     0 ?        I    08:05   0:00 [kworker/u8:2-flush-8:0]
+root     4000426  0.0  0.0      0     0 ?        I    08:08   0:00 [kworker/2:0-cgroup_destroy]
+root     4000438  0.0  0.0      0     0 ?        I    08:08   0:00 [kworker/1:2-mm_percpu_wq]
+root     4000486  0.0  0.0      0     0 ?        I    08:18   0:00 [kworker/2:1-mm_percpu_wq]
+root     4000499  0.0  0.0  17796 11284 ?        Ss   08:18   0:00 sshd: sam.edding [priv]
+root     4000575  0.0  0.0      0     0 ?        I    08:18   0:00 [kworker/3:1]
+root     4000605  0.0  0.0      0     0 ?        I    08:21   0:00 [kworker/u8:1-events_unbound]
+sam.edd+ 3993703  0.0  0.0  18984 10696 ?        Ss   04:48   0:00 /lib/systemd/systemd --user
+sam.edd+ 3993704  0.0  0.0 170620  4504 ?        S    04:48   0:00 (sd-pam)
+sam.edd+ 3993779  0.0  0.0   2576   896 ?        S    04:48   0:00 sh /home/student/sam.edding/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/student/sam.edding/.vscode-server/.0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2.token
+sam.edd+ 3993789  0.1  0.6 969488 106536 ?       Sl   04:48   0:15 /home/student/sam.edding/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node /home/student/sam.edding/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/student/sam.edding/.vscode-server/.0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2.token
+sam.edd+ 3993891  0.0  0.3 686600 61296 ?        Sl   04:48   0:09 /home/student/sam.edding/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node /home/student/sam.edding/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/bootstrap-fork --type=ptyHost --logsPath /home/student/sam.edding/.vscode-server/data/logs/20231229T044818
+sam.edd+ 3993915  0.1  0.6 979468 111720 ?       Sl   04:48   0:18 /home/student/sam.edding/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node --dns-result-order=ipv4first /home/student/sam.edding/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+sam.edd+ 3993926  0.0  0.3 848952 57252 ?        Sl   04:48   0:07 /home/student/sam.edding/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node /home/student/sam.edding/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/bootstrap-fork --type=fileWatcher
+sam.edd+ 3993997  0.0  0.0   8624  5000 pts/3    Ss+  04:48   0:00 /usr/bin/bash --init-file /home/student/sam.edding/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+sam.edd+ 4000357  0.0  0.0  18056  6920 ?        S    08:03   0:00 sshd: sam.edding@pts/5
+sam.edd+ 4000358  0.0  0.0   8596  5080 pts/5    Ss   08:03   0:00 -bash
+sam.edd+ 4000514  0.0  0.0  18072  7088 ?        S    08:18   0:00 sshd: sam.edding@notty
+sam.edd+ 4000515  0.0  0.0   7288  3588 ?        Ss   08:18   0:00 -bash
+sam.edd+ 4000522  0.0  0.0   7948  4172 ?        S    08:18   0:00 bash
+sam.edd+ 4000606  0.0  0.0  11668  4456 pts/5    R+   08:22   0:00 ps aux --sort=user
+san.shr+ 1737013  0.0  0.0  19036  4244 ?        Ss   Nov30   0:08 /lib/systemd/systemd --user
+san.shr+ 1737014  0.0  0.0 171404   540 ?        S    Nov30   0:00 (sd-pam)
+san.shr+ 1737080  0.0  0.0   2576     0 ?        S    Nov30   0:00 sh /home/student/san.shrestha/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/student/san.shrestha/.vscode-server/.1a5daa3a0231a0fbba4f14db7ec463cf99d7768e.token
+san.shr+ 1737090  0.0  0.0 970156 10092 ?        Sl   Nov30   0:11 /home/student/san.shrestha/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node /home/student/san.shrestha/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/student/san.shrestha/.vscode-server/.1a5daa3a0231a0fbba4f14db7ec463cf99d7768e.token
+san.shr+ 1737164  0.0  0.0      0     0 ?        Z    Nov30   0:07 [node] <defunct>
+seb.bae+ 1227568  0.0  0.0  18988  4256 ?        Ss   Dez12   0:04 /lib/systemd/systemd --user
+seb.bae+ 1227569  0.0  0.0 170428   656 ?        S    Dez12   0:00 (sd-pam)
+seb.bae+ 1316209  0.0  0.0 177316   404 ?        Sl   Dez13   0:00 /home/student/seb.baehr/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node /home/student/seb.baehr/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/bootstrap-fork --type=ptyHost --logsPath /home/student/seb.baehr/.vscode-server/data/logs/20231213T111941
+seb.bae+ 1325262  0.0  0.0 169120  1560 ?        Sl   Dez13   0:00 /home/student/seb.baehr/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node --dns-result-order=ipv4first /home/student/seb.baehr/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+seb.bae+ 1780642  0.0  0.0   2576     0 ?        S    Dez14   0:00 sh /home/student/seb.baehr/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/student/seb.baehr/.vscode-server/.0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2.token
+seb.bae+ 1780652  0.0  0.4 975592 69896 ?        Sl   Dez14   3:54 /home/student/seb.baehr/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node /home/student/seb.baehr/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/student/seb.baehr/.vscode-server/.0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2.token
+seb.bae+ 1780695  0.0  0.2 758008 33272 ?        Sl   Dez14   2:20 /home/student/seb.baehr/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node /home/student/seb.baehr/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/bootstrap-fork --type=ptyHost --logsPath /home/student/seb.baehr/.vscode-server/data/logs/20231214T111445
+seb.bae+ 1780713  0.0  0.0 193708     0 ?        Sl   Dez14   0:00 /home/student/seb.baehr/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node --dns-result-order=ipv4first /home/student/seb.baehr/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+sep.mog+ 1732045  0.0  0.0  19064  3816 ?        Ss   Nov02   0:17 /lib/systemd/systemd --user
+sep.mog+ 1732046  0.0  0.0 170820   280 ?        S    Nov02   0:00 (sd-pam)
+sep.mog+ 1776529  0.0  0.0   5852     0 ?        S    Nov02   0:00 script verlauf.txt
+sep.mog+ 1776530  0.0  0.0   8720     8 pts/6    Ss+  Nov02   0:00 bash -i
+sep.mog+ 1776895  0.0  0.0   5852     0 pts/6    T    Nov02   0:00 script -c /gbs/aufgaben/a1/endlos_stern.sh verlauf.txt
+sha.bir+ 1230113  0.0  0.0  19044  5212 ?        Ss   Dez12   0:04 /lib/systemd/systemd --user
+sha.bir+ 1230114  0.0  0.0 170428   672 ?        S    Dez12   0:00 (sd-pam)
+sha.bir+ 1290040  0.0  0.0 185512    52 ?        Sl   Dez13   0:00 /home/student/sha.biradar/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/node --dns-result-order=ipv4first /home/student/sha.biradar/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+srasubm+ 1109468  0.0  0.0  32240  6268 ?        Ss   Nov30   4:36 /opt/srabmit/web/venv/bin/python3.11 /opt/srabmit/web/venv/bin/gunicorn -b 127.0.0.1:8081 --access-logfile /var/log/srabmit/srabmit-access.log --error-logfile /var/log/srabmit/srabmit-error.log --access-logformat %({x-forwarded-for}i)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%(L)s srasubmissions:app
+srasubm+ 1109471  0.0  0.4  93208 73972 ?        S    Nov30   1:25 /opt/srabmit/web/venv/bin/python3.11 /opt/srabmit/web/venv/bin/gunicorn -b 127.0.0.1:8081 --access-logfile /var/log/srabmit/srabmit-access.log --error-logfile /var/log/srabmit/srabmit-error.log --access-logformat %({x-forwarded-for}i)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%(L)s srasubmissions:app
+srasubm+ 3933205  0.0  0.2  97748 38940 ?        Ss   Dez07   0:02 /opt/srabmit/web/venv/bin/python /usr/local/bin/srasubmission-server
+systemd+  566751  0.0  0.0  90060  2116 ?        Ssl  Dez10   0:06 /lib/systemd/systemd-timesyncd
+www-data     535  0.0  0.0  23048  5232 ?        S    Okt11   7:32 nginx: worker process
+www-data     537  0.0  0.0  23324  4904 ?        S    Okt11   7:50 nginx: worker process
+www-data     539  0.0  0.0  23088  5540 ?        S    Okt11   6:56 nginx: worker process
+www-data     540  0.0  0.0  23480  5476 ?        S    Okt11   7:23 nginx: worker process

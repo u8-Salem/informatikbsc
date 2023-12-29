@@ -1,0 +1,6 @@
+insgesamt 20
+drwxr-xr-x 2 root root 4096 16. Okt 09:53 dir1
+drwxr-xr-x 3 root root 4096 16. Okt 09:53 dir2
+-rwxr-xr-x 1 root root   50 16. Okt 09:53 endlos_stern.sh
+drwxr-xr-x 2 root root 4096 16. Okt 09:53 log
+drwxr-xr-x 7 root root 4096 16. Okt 09:53 resources

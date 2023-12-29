@@ -1,0 +1,10 @@
+prozesse.txt: 
+ps aux --sort=user
+
+dateien.txt:
+ls -Al
+
+print.txt
+grep -nr printf
+
+
