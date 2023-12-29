@@ -1,8 +1,0 @@
-#prozesse
-ps aux --sort=user
-#dateien
-ls -al -R /gbs/aufgaben/a1/testdir
-#print
-grep -rnH 'printf' /gbs/aufgaben/a1/testdir
-
-PUNKTE: 2
